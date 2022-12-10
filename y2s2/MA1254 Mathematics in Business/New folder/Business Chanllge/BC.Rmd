@@ -1,0 +1,133 @@
+```{r}
+
+                ## price-sale relationship of blue
+  price <- c(12,10.5,9,7.5)
+  sale <- c(350,450,650,900)
+  #logsale <- sale/200
+  plot(sale, price)
+  #m7 <- nls(sale ~ a*log(b*sale)+c,start = list(a=-10,b=1/5000,c=1000))
+  #summary(m7)
+  #curve(5827.93269*exp(-0.26439*x)+100.22298,from=7, to=12, add=TRUE, col = "red")
+  curve(-(log((x-100.22298)/5827.93269))*x/0.26439 - 0.4*x+200,from=350, to=900, add=TRUE, col = "blue")
+  #x=-(log((y-100.22298)/5827.93269))/0.26439
+  
+  x1 <- seq(from=350,to=900,step=50)
+  profit <- -(log((x1-100.22298)/5827.93269))*x1/0.26439 - 0.4*x1+200
+  plot(x,profit,xlab="Sale Amount",ylab="Profit")
+  #curve(5827.93269*x*exp(-0.26439*x) - 0.4*x +300.22298,from=7, to=12)
+  #y <-  2.4691358024691357*price^3  -55.55555555555556*price^2 + 244.44444444444446*price +  1150
+  
+  #sp1=spline(price,sale,n=1000)
+  #sp2=spline(y,x,n=1000)
+  
+  #plot(price,sale,xlim=c(7,12), ylim=c(300,900),pch=21)
+  #par(new=TRUE)
+  #plot(sp2,xlim=c(7,12), ylim=c(300,900))
+
+
+
+  
+```
+```{r}
+                  ## cost-output relationship
+
+  UblueN <- c(3.56,3.69,5.72,3.54,3.43,5.47,6.11,4.18)
+  UwhiteN <- c(3.04,3.10,5.09,2.40,2.93,4.87,5.20,3.71)
+  LblueN <- c(2.72,4.24,4.60,4.56,4.75,4.92,4.92,4.55)
+  LwhiteN <- c(2.28,2.04,2.42,2.93,2.19,2.34,2.04,2.13)
+  LredN <- c(8.66,8.66,9.99,8.49,9.49,9.99,9.66,8.16)
+  
+  UblueP <- c(10.89,9.58,7.83,9.90,10.72,7.47,7.50,8.46)
+  UwhiteP <- c(8.50,7.60,5.87,9.73,8.37,5.59,5.87,6.36)
+  LblueP <- c(11.37,8.42,7.80,7.61,8.16,6.97,7.96,7.85)
+  LwhiteP <- c(6.78,8.75,7.41,5.92,8.84,7.33,9.60,8.38)
+  LredP <- c(6.55,7.56,6.59,7.49,7.48,6.30,7.44,8.02)
+  
+  #par(mfrow=c(2,3))
+  plot(LblueN,LblueP,main="Lower Blue")
+  m1 <- nls(LblueP ~ a*exp(b*LblueN)+c,start = list(a=10,b=-0.1,c=5))
+  curve(22.7926*exp(-0.5104*x)+5.6850,from=min(LblueN), to=max(LblueN), add=TRUE)
+
+  
+  plot(LwhiteN,LwhiteP,main="Lower White")
+  m2 <- nls(LwhiteP ~ a*exp(b*LwhiteN)+c,start = list(a=100,b=-1,c=5))
+  curve(365.765*exp(-2.244*x)+5.438 ,from=min(LwhiteN), to=max(LwhiteN), add=TRUE)
+
+  
+  plot(LredN,LredP,main="Lower Red", xlab="Produced Amount", ylab="Unit Cost")
+  #m3 <- nls(LredP ~ a*exp(b*LredN),start = list(a=10,b=-1))
+  m3 <- nls(LredP ~ a*LredN+b,start = list(a=10,b=-1))
+  curve(13.87779*exp(-0.07227*x),from=min(LredN), to=max(LredN), add=TRUE)
+  curve(-0.5199*x+11.9293,from=min(LredN), to=max(LredN), add=TRUE)
+  
+  
+  plot(UblueN,UblueP,main="Upper Blue")
+  m4 <- nls(UblueP ~ a*exp(b*UblueN)+c,start = list(a=10,b=-0.1,c=0))
+  curve(792.2345*exp(-1.5955*x)+7.5077,from=min(UblueN), to=max(UblueN), add=TRUE)
+  
+  
+  plot(UwhiteN,UwhiteP,main="Upper White", xlab="Produced Amount", ylab="Unit Cost")
+  m5 <- nls(UwhiteP ~ a*exp(b*UwhiteN)+c ,start = list(a=10,b=-0.1, c=0))
+  #abline(lm(UwhiteP ~ UwhiteN))
+  curve(34.2244*exp(-0.8310*x)+5.2221,from=min(UwhiteN), to=max(UwhiteN), add=TRUE)
+  
+
+```
+
+
+```{r}
+
+                    ## input-quality relationship of milk
+  inputU <- c(72800,98600,72000,104000,85200,104100,98400,97900,61000,64500,110800,53500,62000,103400,118800,73000)
+  inputL <- c(209500,181500,117900,191700,178800,147300,141900,99200,126400,141900,194800,145600,160200,172500,174500,137300)
+  quality <- c(4.5,4.3,3.7,4.2,3.8,4.4,4.3,3.9,3.7,3.8,4.1,3.6,3.9,4.0,4.2,3.7)
+  
+  plot(inputU,quality,main="Upper")
+  plot(inputL,quality,main="Lower")
+  plot(quality,main="Quality")
+```
+
+```{r}
+                      ## data fitting
+
+
+m <- nls(LblueP ~ a*exp(b*LblueN),start = list(a=10,b=-0.1))
+summary(m)
+
+plot(LblueN,LblueP,main="Lower Blue")
+lines(LblueN,predict(m))
+#abline(lm(LblueP ~ LblueN))
+```
+
+```{r}
+  LB6.9 <- 22.7926*exp(-0.5104*6.9)+5.6850
+  LB18.03 <- 22.7926*exp(-0.5104*18.03)+5.6850
+  
+  (LB6.9 - LB18.03) / LB18.03
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

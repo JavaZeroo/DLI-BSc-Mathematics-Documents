@@ -1,0 +1,1964 @@
+0
+00:00:00,000 --> 00:00:02,550
+他 呃 去
+He's, um, go along to
+
+1
+00:00:02,920 --> 00:00:07,940
+不 不是3 3 5 6 是3 4 3 5
+No, not three, three, five, six, it's, uh, three, four, three, five.
+
+2
+00:00:08,030 --> 00:00:09,630
+你们将要看到的
+That's the one you will see.
+
+3
+00:00:10,110 --> 00:00:15,410
+关于黑板网站的安排 我还需要做一些零零碎碎的工作
+I still need to do one or two bits and pieces with the arrangement of the blackboard site.
+
+4
+00:00:15,570 --> 00:00:18,890
+但是在左手边你会看到菠萝的视频
+But on the left hand side you'll see pineappdo video.
+
+5
+00:00:19,050 --> 00:00:26,270
+如果你点击它 甚至双击它 就会发生一些事情
+And if you click on that, or even double click on it, something should happen.
+
+6
+00:00:26,420 --> 00:00:40,210
+里有很多我去年讲过的课程的链接 和我今年要讲的课程差不多
+You'll see that there's a whole range of um links there to lectures that I gave last year in this module, which are pretty much the same as the lectures I'm going to give this year.
+
+7
+00:00:40,370 --> 00:00:49,420
+当我告诉你们的时候 我会给你们发邮件去买一块黑板来准备下一节课
+And when I tell you, I'll email you all buy a blackboard to prepare for the next lecture.
+
+8
+00:00:49,500 --> 00:00:57,370
+希望你们能在黑板上看到下一讲的内容
+Hopefully you can go on to onto blackboard and, um, and see what the next lectured about.
+
+9
+00:00:57,390 --> 00:01:10,630
+我会告诉你们 如果我想让你们在上课前看一下全景视频 样我们就可以在上课时进行更多的互动讨论
+And and I'll give you, I'll give you heads up if I'm if I want you to look at the panoplue video before the lecture, and so that we can actually have some more interactive discussion during the lecture.
+
+10
+00:01:10,790 --> 00:01:13,090
+ 我会通过电子邮件告诉你
+Then then I'll, I'll let you know by email.
+
+11
+00:01:13,270 --> 00:01:47,840
+好的 如果你点击其中 如果你点击 你会得到样你就有机会了 对吧
+Okay, hopefully, if you click on one of these, so if you click on that one, you get the so that you can have a chance, right?
+
+12
+00:01:48,000 --> 00:01:54,090
+我就不给你们看了 但希望你们能理解我要说的
+So I won't show you that, but you can hopefully understand what I have to say.
+
+13
+00:01:54,110 --> 00:01:58,990
+看一遍幻灯片 希望大家都能看清楚
+Go through the slides, and hopefully it all will be clear.
+
+14
+00:01:59,230 --> 00:02:04,840
+如果你因为任何原因不能看些视频 请告诉我
+If you can't, for any reason see those videos, then let me know.
+
+15
+00:02:05,060 --> 00:02:20,720
+今天的课程是本模块的第一讲 我们将详细讨论特定过程中特定类型的污染
+Okay, so today's lecture is the 1st proper lecture of the module, where we're actually gonna talk in detail about particular type of pollution of particular set of processes.
+
+16
+00:02:21,080 --> 00:02:27,900
+我们将从点源污染开始 点源控制水质
+And we're going to start point source pollution, so point source controls over water quality.
+
+17
+00:02:28,180 --> 00:02:32,860
+我要做的是给大家简单介绍一下点源污染
+What I'm going to do is give you a brief introduction to point source pollution.
+
+18
+00:02:33,270 --> 00:02:44,660
+周二的时候我已经讲过了 但我还是要再讲一遍以防周二没来的同学 只是讲一下点源区域的阈值内存
+I kind of did that already on Tuesday, but I'll just go over that again in case there are people here who weren't here on Tuesday, just to a threshold memory about what we mean by point source region.
+
+19
+00:02:44,660 --> 00:02:59,290
+我将花一些时间来谈论污水处理 因为在英国最重要的污染源来自于下水道网络 它通常通过污水处理厂处理废水
+I will spend some time talking about sewage treatment, because the most important point sources of pollution in the UK come from the Sewer network, which usually feeds through a sewage treatment works and treats the wastewater.
+
+20
+00:03:00,520 --> 00:03:09,970
+我将讨论B-O-D和溶解在污水中的医生的动态
+Then I'll talk about the dynamics of B-O-D and dissolved doctors in flowing waters receiving sewage.
+
+21
+00:03:10,450 --> 00:03:19,130
+它们包括理解些概念 混合 方程 动力学建模 以及薄膜污染
+And they involve understanding those concepts, so the mixing, equation, modeling of those dynamics, and film pollution.
+
+22
+00:03:19,290 --> 00:03:20,490
+但我今天不会讲些
+But I won't talk about those today.
+
+23
+00:03:20,550 --> 00:03:33,820
+我想今天我只讲前三种 介绍主题 谈谈食物治疗 广义地讲一下预兆动力学的概念
+I think today I'll just talk about the top three, introduce the topic, talk about food treatment, and then talk broadly about the concept of bode do dynamics.
+
+24
+00:03:33,980 --> 00:03:38,860
+周二我会更详细地讲
+I will go in a more detail on Tuesday about that.
+
+25
+00:03:40,420 --> 00:03:45,420
+是周二课上关于点源的例子
+So examples from tuesday's lecture on point sources.
+
+26
+00:03:46,040 --> 00:03:50,100
+认真的治疗工作 很大的 非常重要的点源
+Serious treatment works, a big, really important point source.
+
+27
+00:03:50,260 --> 00:03:57,560
+全国各地 有成百上千个污水处理厂 如果没有上千个 污水处理厂就有上千个
+All over the country, there are hundreds and hundreds of sewage treatment works, if not thousands, of sewage treatment works.
+
+28
+00:03:57,980 --> 00:04:02,100
+你的污水都被处理了
+So all over lesser your your sewage is treated.
+
+29
+00:04:02,260 --> 00:04:10,250
+在莱斯特市 在城市北部的污水处理厂 下游的污水流入了索尔河
+In the city of Leicester, at the one look sewage works, which is north of the city, downstream, feeds into the River Sore.
+
+30
+00:04:10,370 --> 00:04:17,300
+如果你想知道更多关于科诺 去了解或土地污水处理厂的位置和影响
+If you want to know more about that Conono, go about locations and impact of orland sewage works.
+
+31
+00:04:17,660 --> 00:04:19,480
+但如果你住在
+But if you lived in E.G.
+
+32
+00:04:19,640 --> 00:04:22,740
+市场港 你会在马克港有污水处理厂
+Market Harbor, you would have a sewage works in Marker Harbor.
+
+33
+00:04:22,860 --> 00:04:27,000
+如果你住在喜旺和小山上 你就会在小山上有污水处理厂
+If you lived in Hopes and on the Hill, you would have a sewage works and holding on the hill.
+
+34
+00:04:27,040 --> 00:04:33,660
+你可以在普通的地图上看到 它们实际上是显示出来的 它会说 污水处理厂 或污水处理厂
+And you can often sees on an ordinary survey map, they're actually shown, and it might actually say, sewage treatment works, or sewage works.
+
+35
+00:04:34,180 --> 00:04:42,760
+好的  我今天会多谈谈些污水处理厂的处理方法
+Okay, um. I will talk more about the processes that operate in those sewage treatment works today.
+
+36
+00:04:43,720 --> 00:05:00,060
+工业也是潜在的点源 想象工厂在生产一些涉及到水处理的东西 你必须冲洗或以某种方式使用水 通常有废物从过程中
+Industry is also a potential point source of Imagine a factory that's producing something involving some sort of aquious process, where you have to wash down or use water in some way, there's usually a waste product from that process.
+
+37
+00:05:00,220 --> 00:05:07,480
+你知道 很多食品加工都需要水 即使只是为了冲洗地球等等
+And a lot of food processing requires water, you know, even if it's just for washing down the planet, etc.
+
+38
+00:05:07,580 --> 00:05:10,340
+水会被污染
+And that water may be contaminated.
+
+39
+00:05:10,380 --> 00:05:18,500
+如果是食品加工 它会被有机方法污染 你知道 从机器之类的东西
+If it's food processing, it will be contaminated with organic method from from the, you know, pleading down machines and that kind of thing.
+
+40
+00:05:18,780 --> 00:05:27,460
+因此 工业经常通过管道将被污染的水排放到地表水中
+So industry often discharge polluted water through a pipe and into a surface water.
+
+41
+00:05:27,860 --> 00:05:43,620
+最后 我们谈到了发电站 我们在周二的时候谈到过 我们会在周二的时候 讨论更多关于野生动物污染的概念
+And then finally, we've got power stations, which we talked about on um Tuesday, and we'll talk more about when we, when we revisit the concept of fermal pollution on on Tuesday.
+
+42
+00:05:44,020 --> 00:05:56,660
+每都通过点源病毒管道向地表水中排放污染物
+And each one of these is emitting a pollutant into a surface water via a point source viral pipe, essentially.
+
+43
+00:05:56,780 --> 00:06:13,350
+我们所说的点源污染指的是污染进入隐蔽的 可识别的地方 而进入地方的污染源是可识别的
+And that's really what we mean by point source pollution is pollution is entering at a discreet, identifiable place, and the source for the pollution that comes in to to that is identifyable.
+
+44
+00:06:13,430 --> 00:06:25,310
+我们知道污水处理厂通过下水道网络收集来自整个莱斯特和南部的污水
+We we understand that at one lit the sewage works is collecting sewage through the sewer network from the whole of Leicester and south by seven throat water can actually define.
+
+45
+00:06:25,570 --> 00:06:28,460
+你听说过行尸房 好吗
+You've probably heard of the walker shed, okay?
+
+46
+00:06:28,500 --> 00:06:32,420
+在浪费处理中 人们经常谈到污水棚
+In wasteful treatment, they often talk about the sewer shed.
+
+47
+00:06:32,680 --> 00:06:37,970
+因此 下水道棚是确定的 流出的水将确切地知道他们的集水区在哪里
+So the sewer shed is definable that ungoing water will know exactly where their catchment is.
+
+48
+00:06:38,230 --> 00:06:50,830
+比如 污水处理厂 其他的都是一样的 他们需要知道些 以便能够规划 实际进入工厂的污水量
+For one look, sewage works, and the same for all of their other They need to know that in order to be able to plan the volumes of sewage that will actually enter the enter the plant.
+
+49
+00:06:51,590 --> 00:07:00,680
+出于兴趣 我将在以后的课程中重温些内容 但在本模块结束时 你们应该非常清楚些内容
+Now, just just out of interest, I'll come I will revisit this later in the course, but you should really know this very, very well by the end of the module.
+
+50
+00:07:01,020 --> 00:07:09,360
+我们一般每人一天要用多少水
+What volume of water do we typically use per per person in a day?
+
+51
+00:07:09,780 --> 00:07:11,160
+你觉得我们用了多少
+How much do you think we use?
+
+52
+00:07:17,380 --> 00:07:23,900
+恐龙吗 我们先来讨论一下一天中我们用了多少水
+Dinosaur? I think start us off discussing the how many, how many later the water we use in the day.
+
+53
+00:07:27,950 --> 00:07:31,090
+良好的气体角 是合理的量
+Good gas Cape. So this is a reasonable amount.
+
+54
+00:07:31,250 --> 00:07:32,930
+我是说 你又没喝那么多
+I mean, you don't really drink that much.
+
+55
+00:07:33,090 --> 00:07:34,950
+让你喝了几升
+You've made to drink a couple of liters.
+
+56
+00:07:35,310 --> 00:07:37,050
+你会用一些来做饭
+You might use some for cooking.
+
+57
+00:07:37,210 --> 00:07:42,900
+你可以洗个澡 保释 洗衣服 洗碗
+You might take a shower, bail, laundry, dishwashing, maybe.
+
+58
+00:07:43,140 --> 00:07:48,280
+ 50 好吧 我觉得数字很合理
+Um, so 50. Okay, I-I think that's a sensible number.
+
+59
+00:07:48,440 --> 00:07:50,680
+有人提前告诉我了吗
+Anybody got me advance on that?
+
+60
+00:07:51,600 --> 00:07:58,200
+我迷上了巴菲 好吧 是的
+I am all over Buffy. Okay, yeah.
+
+61
+00:07:58,310 --> 00:07:59,870
+你打算升到多高
+How high are you going to go?
+
+62
+00:08:01,990 --> 00:08:05,550
+谢谢你 五个好吧 有人想再高一点吗
+Thank you. Five. Okay. Anybody want to go higher?
+
+63
+00:08:07,910 --> 00:08:11,670
+不 实际上是150升
+No, it's actually about 150 liters.
+
+64
+00:08:12,010 --> 00:08:23,940
+听起来很高 但实际上 如果你去北美 美国和加拿大 他们每人每天用400公升
+OK It sounds high, but actually, if you go to North America, U-S and Canada, they use maybe 400 every person every day, using 400 liters.
+
+65
+00:08:24,240 --> 00:08:28,500
+那是很多水 里 大约是150
+That's a lot of water. Here, it's about about 150.
+
+66
+00:08:29,100 --> 00:08:36,840
+我是水控 我有时会看我的水费账单 它是在水表上的 我可以看看多少钱
+I being a water geek, I sometimes look at my water bill and it I'm on a meter, so I can look at how much.
+
+67
+00:08:37,000 --> 00:08:40,690
+它告诉我在一段时间内我用水的体积
+They tell me the volume of water I've used in a particular period of time.
+
+68
+00:08:40,850 --> 00:08:46,010
+我算出来了  差不多了
+And I work it out. And, um, it's about right.
+
+69
+00:08:46,170 --> 00:08:51,770
+我家住的都是穷人 我们每天用600片叶子
+Just poor people live in my household, and we we use, um, probably about 600 leaves a day.
+
+70
+00:08:52,570 --> 00:09:00,390
+现在少了一些 但是  是的 是 是数字
+Um, bit bit less these days, but, um, yeah, it's, it's, that's about, that's about the number.
+
+71
+00:09:00,690 --> 00:09:07,740
+有相当多的水进入了房子 些水 几乎所有的水都以污水的形式离开了房子
+So it's quite a lot of water coming into the house, and that water, pretty much all of it leave the house in the sewage.
+
+72
+00:09:07,900 --> 00:09:21,550
+好的 它基本上是分开使用的 你知道 几乎所有的东西 你不会流汗到大气中 或者你用在你的花园或洗车实际上没有排放下来
+Okay, so it's basically used apart, you know, anything, pretty much anything that you don't sweat out into the atmosphere, or that maybe you use toward your garden or washing car there isn't actually discharged down.
+
+73
+00:09:21,570 --> 00:09:24,910
+排水管实际上被推了出来
+The drain is actually pushed back out.
+
+74
+00:09:25,070 --> 00:09:43,080
+水公司将在莱斯特七踩水 将150年 或多或少 人均每天150升 加上所有的水从道路径流 你有是 记住 我们有很多结合下水道 把所有的道路径流
+So the water company will be seven tread water in in Lester, will treat 150, more or less, 150 liters per capita per day, plus all the water that you got from the road runoff, is that, remember, we got a lot combined sewers, and that's taking all that road runoff.
+
+75
+00:09:43,240 --> 00:09:49,870
+实际的输入 如果你有下水道 假设有5万人
+So the actual input, if you've got A-A sewer shed that contains, let's say, 50000 people.
+
+76
+00:09:50,510 --> 00:09:59,030
+为了计算每天流入的水量 你必须将50000人乘以150升
+In order to to calculate the volume of water coming in per day, you'd have to multiply those 50000 people by 150 liters.
+
+77
+00:09:59,120 --> 00:10:13,840
+你还得加上从罗登诺夫进口的多余的水 更重要的是 些额外的输入来自边境公司所谓的 贸易富裕
+And then you'd have to add on all of the extra water that comes in from Rodenoff, and importantly, the extra inputs from what the border companies call trade affluent.
+
+78
+00:10:14,280 --> 00:10:17,470
+好吗 我们把它写下来 因为它是所有些
+OK? We write it down, because it's all of these
+
+79
+00:10:17,480 --> 00:10:29,120
+概念 比如贸易富裕的概念 是你们在环境管理行业中遇到的概念
+concepts, things like the concept of trade affluent, are concepts that you meet in the environmental management industry.
+
+80
+00:10:29,280 --> 00:10:37,360
+你知道 他们基本上都是全球性的公司 环境署和所有的顾问都是围绕着问题
+You know, they are basically world companies, and the Environment Agency and all of the consultants that go around that.
+
+81
+00:10:37,520 --> 00:10:56,450
+的一件事 我想让你出去 如果你有兴趣 其中一件事我想让你走出模块是假设或吸收词汇会让你在2因为有工作在一领域工作 我觉得些很有趣的工作
+And one of the things that I want you to get out, if you're interested, one of the things I'd like you to get out of this module is to is to assume or assimilate a vocabulary that will allow you to work in this 2nd Because there are jobs in this sector, and I think being able to these are quite interesting jobs.
+
+82
+00:10:56,610 --> 00:10:58,350
+它们与你正在做的事情相关
+They're relevant to what you're doing.
+
+83
+00:10:58,570 --> 00:11:01,230
+有些地理学家得到了些工作
+And there are geographers who get these jobs.
+
+84
+00:11:01,390 --> 00:11:03,750
+好吧 他们的工作 他们在咨询公司工作
+Okay? They work. They get jobs in consultncies.
+
+85
+00:11:03,910 --> 00:11:05,690
+他们在环境署工作
+They get jobs for the Environment Agency.
+
+86
+00:11:05,890 --> 00:11:08,070
+请让他们为水找工作
+They get jobs for water, please.
+
+87
+00:11:08,450 --> 00:11:11,450
+好吧 做种事的毕业生
+Okay? Graduate jobs doing this kind of thing.
+
+88
+00:11:11,510 --> 00:11:16,920
+当你学习的时候 你必须吸收词汇 当你谈论托盘的时候
+And you've got to assimilate the vocabulary when you go for it, as you you can talk about tray.
+
+89
+00:11:17,080 --> 00:11:19,000
+你说话的时候就会流口水
+Effluid just, it'll just roll off you talk.
+
+90
+00:11:19,160 --> 00:11:21,460
+以及可持续的城市出行系统
+And talk about sustainable urban journey system.
+
+91
+00:11:21,590 --> 00:11:25,450
+滚下去 你说 我想让你们得到的
+Roll off, you talk. So that's kind of what I want you to get.
+
+92
+00:11:25,610 --> 00:11:34,900
+我想让你试试 我想强调一下词汇 我希望你们在考试和作业中使用些词汇
+I want you to try. And I want to sort of emphasize the vocabulary, and I'd like you to use the vocabulary in the exam and in the in the assignment.
+
+93
+00:11:34,960 --> 00:11:41,060
+是相关的 好吧 我们当然可以喝烈酒
+It is relevant. Okay, um, of course we can have accidental spirit.
+
+94
+00:11:41,080 --> 00:11:50,670
+想象一下 大仓库 把农药装在桶里放在院子里 他们着火了 些桶破裂了
+So imagine a, um, a big warehouse that keeps um pesticides in drums on a courtyard or whatever, and they get a fire, and those drums rupture.
+
+95
+00:11:50,930 --> 00:11:56,680
+你可以 你可以把一些污染物输入到水中
+Then you can, you can get some inputs of that pollutant into into the water.
+
+96
+00:11:56,780 --> 00:12:00,000
+是离散的点源
+So that could be, it's a discrete point source.
+
+97
+00:12:00,160 --> 00:12:02,060
+是另点源的例子
+So that's another example of a point source.
+
+98
+00:12:02,290 --> 00:12:13,610
+我们实际上讨论了农业中的资源 从动物粪便的容器 动物的废物 或绵羊的浸液 诸如此类的东西
+And then we actually talked about resources in agriculture, from containment of of animal slurry, waste waste material from animals, or from sheep dip and that kind of thing.
+
+99
+00:12:14,930 --> 00:12:22,270
+但最重要的 我说的是开始 是在英国的治疗努力
+But the most important one, which I said is the beginning, is is treated efforts in the UK.
+
+100
+00:12:22,690 --> 00:12:28,900
+它实际上是来自污水处理厂的水
+It's actually the the water coming out of of wastewater treatment plants.
+
+101
+00:12:29,020 --> 00:12:31,950
+好吧 那实际上是基比特和污水处理厂
+Okay, that's actually Kibit and sewage works.
+
+102
+00:12:32,110 --> 00:12:36,950
+德文郡人 不 那是我做的采样
+English From devon here. No, that's me something um Sampling.
+
+103
+00:12:37,110 --> 00:12:43,730
+胆小和苏 我们昨天讨论了不同的节目
+Timid and Sue, we talked about separate shows yesterday.
+
+104
+00:12:44,010 --> 00:13:06,370
+因此 独立的下水道是一种点源 可以把它看作是一种点源 但是在模块中 我将把它们看作是城市的扩散源 因为独立的下水道网络不是很广泛
+So separate sewers are kind of a point source that air a pipe that comes out, and they, um, they can be regarded as a point source, but I am going to regard them in this module as an urban diffuse source, because the separate sewer network isn't very extensive.
+
+105
+00:13:06,370 --> 00:13:19,200
+通常 独立的下水道系统只会排水 比如说 住宅区 它会通过相对较小的管道在一条小溪或河流中排放
+Usually, a separate sewer system is only going to drain, let's say, a housing estate, and then it's gonna discharge through a relatively small pipe in a small stream or a or a river.
+
+106
+00:13:19,490 --> 00:13:30,670
+ 从道路上流出的径流 进入单独的下水道 会被认为是城市的扩散
+So the um, the the runoff that comes off the road, that goes into a separate sewer, will regard that as urban diffuse, sort of.
+
+107
+00:13:30,850 --> 00:13:35,590
+我们会讲到的 我想在上节课中 我们将讨论城市污染源污染
+And we'll meet that. I think in the last lecture, we're going to talk about urban defuse, source pollution.
+
+108
+00:13:35,750 --> 00:13:38,370
+我们将再次讨论概念
+So we'll come up against that concept again.
+
+109
+00:13:39,950 --> 00:13:44,290
+我们又合并成溢位
+And then we got combined to overflows again.
+
+110
+00:13:44,450 --> 00:13:49,640
+还有点源 我们周二讲过
+There are point source, um, we talked about those on Tuesday.
+
+111
+00:13:49,800 --> 00:13:57,660
+它们只是间歇性地发生 希望随着它们的升级 它们会减少
+They only happen intermittently, and hopefully they are going to be reduced as they upgrade.
+
+112
+00:13:57,820 --> 00:14:06,480
+当时的西华人基本上还是维多利亚时代的 污水网 污水网结合
+The sewart still largely Victorian. Sewage network, sewage network combined.
+
+113
+00:14:06,640 --> 00:14:14,900
+下水道溢流仍然很常见 但水务公司正逐渐试图减少C-S事件的增加
+Sewer overflow still quite common. But water companies are gradually trying to reduce C-S so incidents by increase.
+
+114
+00:14:15,060 --> 00:14:22,760
+他们有很大的风暴箱 可以储存大量的水 样就不需要直接排放了
+They've got big storm tanks that actually take large volumes and store them so that they don't need to be discharged directly.
+
+115
+00:14:22,920 --> 00:14:30,900
+真的好了 但是 是 是在面试中与溢出或csos相结合的概念
+Really Okay. but again, here's a, here's a concept combines to overflows or csos in an interview.
+
+116
+00:14:31,060 --> 00:14:33,560
+是有用的概念
+Again, you might that might be a useful concept.
+
+117
+00:14:34,000 --> 00:14:38,140
+你们应该很熟悉结合成一排的概念
+You know, you should be familiar with that idea of combined to a row with them.
+
+118
+00:14:38,300 --> 00:14:54,520
+当你走到河边 你会看到一棵树上有很多与种固体有关的污水 主要是卫生纸 湿巾和其他你在污水中发现的东西挂在树上 就像圣诞树
+When you go down to the river, you see a tree got lots of sewage related to try this solids, mainly toilet roll and wipes and other things that you might find in sewage hanging off the tree, like a Christmas tree.
+
+119
+00:14:54,780 --> 00:15:02,120
+通常是直接指控的证据 在英国 通常意味着附近有银溢出物
+That's usually an evidence of a direct this charge, and in the UK, that usually means there's a combined silver overflow close by.
+
+120
+00:15:04,570 --> 00:15:07,130
+是直接指控的例子
+Here's an example of the direct this charge.
+
+121
+00:15:07,430 --> 00:15:14,130
+未经处理的 当我说到直接收费的时候 我的意思是些污水没有经过研究处理工程
+So untreated. When I say when I talk about direct this charge, I mean this is sewage that doesn't go through research treatment works.
+
+122
+00:15:14,180 --> 00:15:19,190
+些都是下水道
+So again, these these are sewered
+
+123
+00:15:19,340 --> 00:15:21,720
+废水 以便它们被收集
+wastewaters, so that they are collected in
+
+124
+00:15:21,880 --> 00:15:26,590
+下水道网络 也连接建筑物的管道网络
+a sewer network, so there is a network of pipes that link up to buildings,
+
+125
+00:15:27,020 --> 00:15:28,940
+所有的污水都会流下去
+and all the sewage goes down.
+
+126
+00:15:29,690 --> 00:15:49,520
+比如米兰的人口 并没有意识到他们实际上并没有在20世纪90年代中期 有一棵污水树 而现在就有一棵 是有大量污水排放的地方
+So the the population of Milan, E.G., probably don't really realize that they don't actually go didn't at this time in the mid 1990s, have a sewage tree, where there is one now, and this is one one place where a large volume of sewage is actually being discharged.
+
+127
+00:15:49,530 --> 00:15:55,330
+在干燥的天气下 种排放物的流量是2升每2秒
+The dry weather flow for this emission is two liters to per 2nd.
+
+128
+00:15:55,410 --> 00:16:00,270
+好的 是2000升一千升每立方米
+Okay, so that's 2000 liters as a thousand liters in a meter cube.
+
+129
+00:16:00,430 --> 00:16:06,330
+应该是很容易记住的东西
+That's again, something that should just be quite an easy thing to sort of remember.
+
+130
+00:16:06,330 --> 00:16:13,750
+每2秒就有2000升 每天 是相当大的水量
+And so 2000 liters every 2nd, so every day, that's quite a large volume of water.
+
+131
+00:16:13,850 --> 00:16:28,300
+你看 如果你用胶带把量除以150升 就能算出在干燥的天气里 到底有多少人在排放污水
+See, if you tape that volume in a day and divide by 150 liters, and it can work out how many people would be actually discharging sewage, more or less, into that on the dry weather.
+
+132
+00:16:28,460 --> 00:16:38,680
+干旱天气下的水流 是 是一本书 是水资源管理词汇的一部分
+So the idea of a dry weather flow, again, that's a, that's a book, that's part of the vocabulary of of of water management.
+
+133
+00:16:39,010 --> 00:16:44,890
+干燥天气的水流反映了干燥天气下的联合下水道
+Dry weather flow is reflect a combined sewer under dry weather.
+
+134
+00:16:44,910 --> 00:16:54,970
+它并没有接收任何来自道路的水 它只是在天气里排出的污浊的污水
+So it's not receiving any water from the the roads rid off from the road, it's just the the foul sewic sewage that went in that weather.
+
+135
+00:16:55,190 --> 00:17:07,430
+好吗 是相当重要的排放与landro河的排放相比 它接收废水
+OK? And here this is quite a significant discharge compared to the discharge of the of the landro the river that that it receives that wastewater.
+
+136
+00:17:08,030 --> 00:17:10,040
+样就不会有很大的稀释
+So you don't have a huge dilution.
+
+137
+00:17:10,200 --> 00:17:16,740
+事实上 大多数情况下 种情况肯定少于十分之一
+In fact, they have certainly less than one in ten most of the time.
+
+138
+00:17:16,960 --> 00:17:21,470
+呃 在英国 我们会处理所有些垃圾 对吧
+Uh? In the UK, we actually treat all of this waste, OK?
+
+139
+00:17:21,490 --> 00:17:25,290
+种情况不会像我们看到的那样经常发生
+So you won't get this kind of thing happening on a regular basis that we saw.
+
+140
+00:17:25,650 --> 00:17:30,190
+严肃的治疗从空气中起作用 就像上面的图片
+And a serious treatment works from the air, looks like that picture up there.
+
+141
+00:17:30,350 --> 00:17:32,130
+那是相当大的污水处理厂
+That's quite a large sewage works.
+
+142
+00:17:34,690 --> 00:17:43,380
+你们可以看到 污水处理厂的特点是圆形的特点 圆形的水箱
+And you can see there are, one of the features of sewage works are the circular features, the circular um tanks.
+
+143
+00:17:44,220 --> 00:17:47,580
+它们有各种各样的用途
+They've served various purposes, and they're all various.
+
+144
+00:17:47,830 --> 00:17:52,510
+它们不一定都执行相同的功能
+These are not all necessarily performing the same function.
+
+145
+00:17:52,670 --> 00:17:59,760
+在左边有一些矩形的容器 它们在做
+There are some rectangular tanks over there on the left, they might be doing something.
+
+146
+00:17:59,960 --> 00:18:04,260
+在上面 你可以看到更多的情况
+And then up at the top there, you can see there are some more circumstances.
+
+147
+00:18:04,420 --> 00:18:06,640
+他们都在做不同的事情 好吧
+They're all doing different things. Okay?
+
+148
+00:18:07,080 --> 00:18:23,560
+通常 你会发现 在严肃的工作中 首先 你得到的 和进入工厂的废水 好的 我们要做的是 首先 移除大的材料
+And typically what you find in a serious work is that 1st of all you've got and the waste water coming into the plant, OK And what we've got to do 1st of all, is remove the large material.
+
+149
+00:18:23,720 --> 00:18:29,260
+ 废水实际上看起来不像便便
+This, the waste water actually doesn't look like poo.
+
+150
+00:18:29,620 --> 00:18:35,390
+粪便在下水道的运输过程中被分解
+The poo gets broken up during the process of transport in Sewer.
+
+151
+00:18:35,390 --> 00:18:38,110
+但是还有其他固体 你知道 三角叶杨
+But there are other solids. You know, cottonwood.
+
+152
+00:18:38,270 --> 00:18:45,930
+你摔倒了吗 小湿巾应该是可塑的 但我不应该是可塑的 因为实际上它们很耐冻
+Did you throw down? The little um wet wipes that are supposedly fleshable, but I shouldn't really be cold fleshable, because actually they're quite resistant.
+
+153
+00:18:46,350 --> 00:18:58,830
+不要同意使用避孕套 所有你会在废水中发现的东西
+And don't agree condoms, all sorts of things that that you might, that you might find in in um in in in waste water, uh.
+
+154
+00:18:58,990 --> 00:19:07,150
+他们基本上有过程 他们真的过滤掉所有的固体材料
+And so they basically have a process where they literally screen out all of this solid material.
+
+155
+00:19:07,310 --> 00:19:10,550
+它有时被称为筛查
+It's, it's sometimes called screening literally.
+
+156
+00:19:10,710 --> 00:19:29,170
+有一种机械过滤水来过滤所有的固体你有过程 主要的性
+There's A-A mechanical filtration of water to take out all of that solid Then you've got a process of here, primary sexually.
+
+157
+00:19:29,360 --> 00:19:33,680
+好的 你有大的容器 你有很多小的固体物质
+Okay, so you've got a big tank, you've got quite a lot of small solid material.
+
+158
+00:19:33,840 --> 00:19:41,530
+不是那种大的塑料和白色的东西 而是小的 固体的材料 你要试着尽早扔掉
+This is not your big plastics and whites and that kind of thing, but just small, solid material you want to try and get rid of quite early.
+
+159
+00:19:41,690 --> 00:19:44,990
+如果你能解决问题 你就能度过一段美好的时光
+And you do that by settling, you just basically have a big time.
+
+160
+00:19:45,260 --> 00:19:49,160
+让所有的固体慢慢变轻 好吗
+You allow all of those solids just to slowly set light, OK?
+
+161
+00:19:49,320 --> 00:19:54,690
+你会看到有旋转它们突然在那里旋转
+And you will see that there's a rotating they're suddenly rotating there.
+
+162
+00:19:54,910 --> 00:20:05,780
+水的顶部有东西可以去除掉掉在上面的浮渣 在水箱的顶部 向后移动
+And there's something on the top of the water to to take off any scum that falls on top of this, on the top of the tank, and move back.
+
+163
+00:20:06,000 --> 00:20:15,530
+你在瓶子里也有一些东西 把所有些污泥放到底部的某种收集设备里 形状
+And then you also have something in this scrape of bottle and put all of this sludge down into into some sort of collection device at the bottom, in shape.
+
+164
+00:20:15,870 --> 00:20:29,150
+现在 基本上你去掉了所有的水 是干净的水 所有的固体都沉淀了 上面的水是相对的 相对的
+Now, basically you take off any um water, potentially water that's that's clean, is that all of the solid settling out, and the water on the top is relatively, relatively
+
+165
+00:20:29,200 --> 00:20:32,080
+就其固体成分而言是干净的
+clean in terms of its solid content.
+
+166
+00:20:32,170 --> 00:20:36,570
+你把它放入所谓的二次治疗中
+And then you pop that into something called secondary treatment.
+
+167
+00:20:36,850 --> 00:20:38,730
+我想要更好的幻灯片
+I want to have a better slide, actually.
+
+168
+00:20:41,460 --> 00:20:56,260
+是第二次治疗 第二次治疗的主要目的是减少视频点播 你可以把它写下来
+Okay, so you've got your 2nd treatment here, and that involves basically the main purpose of secondary treatment is to reduce the vod Okay, you might want to write that down.
+
+169
+00:20:56,420 --> 00:21:23,440
+是非常重要的 第二回收器的主要观点是 私人处理去除固体 第二处理包括去除生化需氧量 b-o-d和 当你想到b-o-d时 想想可降解有机物 好的 可降解有机物是通过生物过程去除的
+That's very important. The main point of 2nd retriever, the private treatments to remove solid Secondary treatment involves removing the biochemical oxygen demand, the B-O-D and the b When you think about B-O-D, think degradable organic matter, OK And the degradable organic matter is removed using a biological process.
+
+170
+00:21:24,050 --> 00:21:43,340
+好吧 当我们谈到他是如何死亡和被降解的在你的链接的海岸上被分解那些藻类的细菌消耗了氧气
+Okay? It's when we talked about how he dying and being degraded in off the coast of your links um had been an oxygen being consumed by the bacteria that degrade those algae.
+
+171
+00:21:43,410 --> 00:21:50,790
+周二 请记住 pur污水处理过程使用的是完全相同的过程
+On Tuesday, remember that exactly the same process is used by pur sewage treatment process.
+
+172
+00:21:50,810 --> 00:21:58,120
+我们用细菌来降解废水中的有机物
+We're using bacteria to degrade the organic matter in this waste water.
+
+173
+00:21:58,160 --> 00:22:00,400
+可以通过两种方式实现
+And this can be done in two ways.
+
+174
+00:22:00,800 --> 00:22:30,120
+一种方法是 照片在里 基本上是叫做活性污泥erration盆地 那里基本上空气引入槽 与颗粒污泥故意引入到系统的生物膜微生物生长 从而浪费程度的有机物质 对吧
+One way is, which is picture here, is basically something called an activated sludge erration basin, where basically air is introduced into this tank, with particles of sludge introduced on purpose into the systems on which grow a biofilm of microorganisms, which can degree the organic matter that's in the waste, okay?
+
+175
+00:22:30,280 --> 00:22:49,240
+我们进入细菌来分解里的有机物 它会进入二级沉淀池 基本上是为了去除任何会溶解的固体
+And we get in the the bacteria to degree the organic matter here, and then that will then go into a secondary settling basin to basically to try and remove any solids that there would be dissolved.
+
+176
+00:22:49,400 --> 00:22:51,720
+有机地图应该被移除
+Organic maps should have been removed, or not.
+
+177
+00:22:51,780 --> 00:22:53,300
+大部分应该被移除
+Most of it should be removed.
+
+178
+00:22:53,540 --> 00:23:01,460
+你要做的你要把那里的废水处理掉
+And then what what you've got to do is you've got to take the waste water from there and and possibly totally treat that.
+
+179
+00:23:01,720 --> 00:23:05,080
+但是些水可以被排放到自来水中
+But that can then be discharged into the service water.
+
+180
+00:23:05,240 --> 00:23:06,600
+你就会发现他的身体上沾满了污泥
+And then you've got a piece of him with a sludge.
+
+181
+00:23:06,620 --> 00:23:09,720
+整个底部都是污泥的把戏
+So all along the bottom here is the sludge trick.
+
+182
+00:23:09,740 --> 00:23:15,200
+过程中 你要试着把它弄干 因为它非常非常湿
+And process, you basically got to try and dry it out, because it's very, very wet.
+
+183
+00:23:15,720 --> 00:23:22,220
+你可以通过厌氧消化的过程来消化它
+And you can digest it in a process called anaerobic digestion.
+
+184
+00:23:23,060 --> 00:23:37,150
+还有全体会议  我们再次利用微生物的过程来降解污泥中的有机物 我们无法摆脱的剩余固体
+And to to general meeting. So again, we utilize a microbial process to degrade the organic matter in the sludge, remaining solids that we can't get rid of.
+
+185
+00:23:38,310 --> 00:23:55,240
+在有氧消化过程中 我们会产生计量仪 因为某些类型的细菌是厌氧菌 它们生活在厌氧环境中 它们产生的废物不是二氧化碳 而是一种废物
+And in the aerobic digestion, we generate meter, because certain types of bacteria that are anarobes, that that live in an anaerobic environment, instead of generating carbon dioxide of the waste product, they generate meeting as a waste product.
+
+186
+00:23:55,580 --> 00:23:57,000
+我们能用甲烷做呢
+And what can we do with methane?
+
+187
+00:23:59,780 --> 00:24:09,600
+对不起 水公司非常重视能源的使用
+Sorry. Okay, so water companies are very alive to the idea of energy use.
+
+188
+00:24:09,760 --> 00:24:17,240
+好了 回收能源 尽量让他们的生产过程尽的节能
+Okay, recycling energy and trying to make their their processes as energy efficient as possible.
+
+189
+00:24:17,570 --> 00:24:32,630
+而污水处理厂是他们努力压榨的领域 试图最大化他们的能源效率 但也产生他们自己的电力 例如
+And the sewage treatment works is one area where they try to squeeze, trying to maximize their energy efficiency, but also to generate their own electricity that they can use, e.g.
+
+190
+00:24:32,790 --> 00:24:38,130
+为周围的公共用水 因为在重的东西周围放水是非常昂贵的 在周围放水也是非常昂贵的
+for public water around. Because it's quite expensive to put water around what was heavy, it's very expensive to pop around.
+
+191
+00:24:38,500 --> 00:24:41,080
+它是昂贵的干燥污泥 例如
+It's expensive to dry sludge, e.g.
+
+192
+00:24:41,240 --> 00:24:52,860
+你需要用热来慢慢干燥 如果你可以补贴你在过程中使用的能量 通过产生你自己的能量 是你可以做的一件很整洁的事情
+you might have to use heat to dry slow So if you can subsidize the energy that you use in that process by generating your own energy, that's that's kind of a neat thing that that you can do.
+
+193
+00:24:53,100 --> 00:25:14,840
+好的 下一张幻灯片展示了活性污泥处理过程 更详细一些 更多一些 更清晰一些 你们可以看到 从左到右 你们的法律 谁被谴责了 筛选出大的固体 大的固体 小的固体
+Okay, the next slide shows the activate sludge treatment process in a bit more detail, a little bit more, with a bit bit clearer And as you can see, from left to right, your laws, who is condemned, screen out the large solids set aloud, the smaller solids.
+
+194
+00:25:15,000 --> 00:25:21,660
+发电机产生的污泥越多 些污泥就越有降落 或者被消化掉
+As much as you can that generator sludge, that sludge can go on to land, or it can be digested.
+
+195
+00:25:23,340 --> 00:25:25,440
+是刺激罐
+Then you've got the irrration tank.
+
+196
+00:25:25,600 --> 00:25:27,440
+你把空气引入系统
+You introduce air into that system.
+
+197
+00:25:27,600 --> 00:25:29,710
+你还介绍了一些
+You also introduce some
+
+198
+00:25:30,120 --> 00:25:32,510
+固体进入系统 控制
+solids into that system. Control.
+
+199
+00:25:32,820 --> 00:25:45,120
+好的 你在去除孤独 实际上你在里添加了更多的固体 但实际上你只是添加了 你添加了特定的固体已经得到了相关的生物燃料
+Okay, so you're removing solitude, you're actually adding more solids here, but the you're actually only adding, you're adding particular solids to have already got an associated biofuel.
+
+200
+00:25:45,560 --> 00:25:58,110
+那些生物燃料中的微生物在那些固体的一侧 它们做的工作是分解所有的分解所有进入盆地的物质
+And those microbes in the biofuel on that's on those solid a listless sides, they do the job of breaking down all the up all your getting matter that's coming in enough into that basin.
+
+201
+00:25:58,300 --> 00:26:10,280
+他有了第二个沉淀过程叫做澄清器 在澄清器之后 你可以 你可以排出
+And then he got a secondary settling process called a clarifier, and then after the clarifier, you can, you can actually discharge.
+
+202
+00:26:10,700 --> 00:26:18,960
+通常情况下 你可以通过放电来找到左移 或者你需要在末端进行第三次处理 稍后就不讨论了
+More often than not, you can actually discharge to find left move, or you might need an a tertiary process on the end and not talk about that later.
+
+203
+00:26:19,600 --> 00:26:23,960
+好吗 雪橇在里生成 在里生成
+OK? Sledges generated here, generated here.
+
+204
+00:26:23,980 --> 00:26:30,460
+就像我说的 我们摆脱了它 它可以被消化
+We got rid of that, as I say, that could be digested often is now.
+
+205
+00:26:30,790 --> 00:26:53,420
+世界公司会尽量从些污泥中榨取能量 从些富含有机物的物质中 尽多地 使用其他的屋顶消化系统 你就会得到厌氧消化产生的废物 基本上被称为污水污泥
+So that sludges that the World Company will try to squeeze as much energy out of that, out of that high rich, organic rich material, as possible, using other roof digestion, and then you you're left with a waste product from the anaerobic digestion, which is basically called sewage sludge.
+
+206
+00:26:53,580 --> 00:26:55,800
+通常适用于土地
+And that tends to be applied to land.
+
+207
+00:26:56,060 --> 00:26:59,380
+好吧 它适用于土地 因为它的营养非常丰富
+Okay? And it's applied to land because it's very rich in nutrients.
+
+208
+00:26:59,540 --> 00:27:07,700
+它的铵含量很高 是很好的肥料 对吧
+It tends to have very high ammonium content, and it makes a very good fertilizer, okay?
+
+209
+00:27:07,860 --> 00:27:11,470
+它也有藻类物质 被看作是另外一种物质
+And it's also got algalic matter, kind of seen as a sort additionally.
+
+210
+00:27:11,750 --> 00:27:14,910
+它在农业中很常用
+So it's quite commonly used in in agriculture.
+
+211
+00:27:17,790 --> 00:27:24,510
+张幻灯片展示了次生盆地的情况
+This is just a slide to show what goes on in the secondary eration basin.
+
+212
+00:27:25,320 --> 00:27:30,820
+你可以看到 是很晚的 实际上混合了水
+And you can see that there are late that that actually mix the water.
+
+213
+00:27:30,980 --> 00:27:35,390
+有一根管子用来输送空气
+There's A-A pipe through which air is pumped.
+
+214
+00:27:35,790 --> 00:27:46,820
+些气泡进入盆地 混合后给分解有机物的微生物提供氧气
+Of that airbasing bubbles of into the basin, mixes it gives oxygen to the microbes that are breaking down the organic matter.
+
+215
+00:27:46,980 --> 00:27:51,140
+为了确保不是限制因素 些微生物需要氧气
+To make sure that that's not a limiting factor, those microbes need oxygen.
+
+216
+00:27:51,300 --> 00:27:53,880
+还记得藻类退化的例子吗
+Remember the the example of algae degrading?
+
+217
+00:27:53,920 --> 00:27:59,830
+他们使用水中的氧气 并在污水处理过程中降低氧气的含量
+They're using oxygen from the water and pulling that down in the sewage treatment process.
+
+218
+00:27:59,850 --> 00:28:07,490
+你要确保种情况不会发生 而且要确保些生物有充足的氧气供应
+You want to make sure that that's not going to happen, and that there's always a plentiful supply of oxygen to those, to those organisms.
+
+219
+00:28:08,210 --> 00:28:11,690
+关于处理器有问题吗
+Okay, any questions about that processor?
+
+220
+00:28:16,390 --> 00:28:21,020
+另一种人的第二疗法第二疗法有两种
+The other type of 2nd route human there's two types of 2nd treatment.
+
+221
+00:28:21,080 --> 00:28:24,520
+是活性污泥处理过程 就像我想描述的
+One is the activate sludge treatment process like I want to describe.
+
+222
+00:28:24,600 --> 00:28:30,270
+第二类二级处理是诱骗过滤器
+The 2nd type of secondary treatment is the tricking filter.
+
+223
+00:28:30,450 --> 00:28:34,830
+而魔术师的电影基本上代替了计划
+And the trickmen film to basically just takes the place of the eration plan.
+
+224
+00:28:35,130 --> 00:28:40,630
+过程和计划中的旅行完全一样 你有你的主定居者
+The process is absolutely identical for a trip to Within the plan, you've got your primary settler.
+
+225
+00:28:40,790 --> 00:28:43,010
+你没时间申辩
+You haven't got an arration time.
+
+226
+00:28:43,170 --> 00:28:47,410
+相反 你有滴滤器 你有最终的澄清器
+Instead, you've got trickling filter, and then you have got a final clarifier.
+
+227
+00:28:47,570 --> 00:28:57,100
+你基本上已经得到了你在那里看到的所有东西 除了中间的部分 是是在恶作剧的过滤器里面吗
+So you've basically got everything that you see there, except for the the middle bit, is is is there in a tricking filter?
+
+228
+00:28:57,500 --> 00:29:08,170
+过滤器基本上是巨大的圆柱体 里面装满了固体材料 具有非常非常高的表面积
+The filter is basically a huge cylinder packed with solid material with a very, very high surface area.
+
+229
+00:29:09,990 --> 00:29:34,560
+在过去 他们使用一种叫做熟料 基本上 我认为 产品的废品冶炼铁矿石和事情 是非常 非常多孔 高表面积 固体材料 只是挤在大床 你随便灌溉床为大武装和清洁工
+In the past, they used something called clinker, which was basically, I think, a product of the waste product from smelting iron ore and that kind of thing, which is basically very, very porous, high surface area, solid material, that it just packed into a big bed, and then you literally irrigate the bed into big armed and sweeps round that.
+
+230
+00:29:34,620 --> 00:29:38,380
+些是水注入手臂的部位
+These are arms that the waters pump down into the arms.
+
+231
+00:29:38,720 --> 00:29:45,070
+你可以在左上方看到澄清的 已经经过一次处理的水
+And you can see in the top left there the the clarified, already primary treated water.
+
+232
+00:29:45,230 --> 00:29:50,170
+在一点上它看起来相当清晰 实际上是均匀地灌溉在海湾上
+It looks fairly clear at this point, is literally irrigated onto the bay uniformly.
+
+233
+00:29:50,470 --> 00:30:09,020
+水通过你所得到的固体物质网络涓涓细流 在此过程中 与固体物质表面相关的微生物分解了废水中的有机物
+The water trickle through the network of solid material you've got, and as it does so, microorganisms that are associated with the surfaces of that solid material break down the organic matter that's in that waste water.
+
+234
+00:30:09,180 --> 00:30:23,550
+ 我们再次使用相同的想法 把废水与微生物接触 些微生物将分解有机地图 并去除 减少B-F-D
+So again, we're using the s the same idea, sort of bringing the waste water into into contact with microorganisms that will break down the organic map and remove, reduce the B-F-D.
+
+235
+00:30:24,230 --> 00:30:32,080
+是的 除了在种情况下 微生物是在脱扣过滤器填料的表面
+Yep. Except in this case, the microorganisms are on the surfaces of the packing of the tripping filter.
+
+236
+00:30:32,460 --> 00:30:37,470
+现在 实际上 他们经常使用非常小的 高的马戏团区域塑料
+These days, actually, they use very small, high circus area plastic, often
+
+237
+00:30:37,970 --> 00:30:41,450
+而不是熟料 没有最优化的方法
+rather than clinker. There's not to optimize that.
+
+238
+00:30:42,330 --> 00:30:47,510
+ 基本上是生物燃料 是生长在些固体表面的细菌
+Well, basically it's the biofuel. It's the bacteria that grow on the surfaces of those solids
+
+239
+00:30:47,610 --> 00:30:50,070
+所有的工作 好吧
+that is all the work. Okay?
+
+240
+00:30:50,230 --> 00:30:57,040
+关于战争的争论慢慢地从底部流出来 它有更低的胡须
+And the war debate the trickle through out on bottom, and it's got a much lower bearded.
+
+241
+00:31:00,680 --> 00:31:05,780
+我其实很敏感 是post文件澄清器
+I'm actually touchy treatment. So this is post file clarifier.
+
+242
+00:31:06,340 --> 00:31:31,220
+用另一种方法来处理些水还是有用的 通常是因为废水通常含有高浓度的营养物 主要是氮和化石 它是接收水
+It may still be useful necessary to treat this water additionally with another process, and that's usually because the waste water often has high concentrations of nutrients, primarily nitrogen and fossil So it might be that the r the receiving water.
+
+243
+00:31:31,380 --> 00:31:39,890
+我们会在后面的模块中讨论很多关于磷的问题 但是浪费的处理厂是磷的主要来源
+Will talk a lot about phosphorus later in the in the module, but wasteful treatment plants are big sources of phosphorus.
+
+244
+00:31:40,020 --> 00:31:47,580
+好吧 我们吃的东西中含有大量的磷 我们的废物通常富含磷
+Okay? There's a lot of phosphorus in what we eat, so our wastes are often rich in phosphorus.
+
+245
+00:31:47,630 --> 00:31:53,230
+此外 我们在家庭中使用的很多产品都含有寄养成分
+And in addition, we use a lot of products in the household that contain fosterism.
+
+246
+00:31:53,450 --> 00:31:59,350
+曾几何时 洗衣粉中含有高浓度的磷
+Once upon a time, laundry detergents had large high concentrations of phosphorus.
+
+247
+00:31:59,690 --> 00:32:02,550
+洗碗片仍然含有磷
+Dish washing tablets might still contain phosphorus.
+
+248
+00:32:02,930 --> 00:32:07,590
+我们国内的一些产品含有磷
+Some of our other domestic products might contain phosphorus.
+
+249
+00:32:07,630 --> 00:32:21,770
+污水中含有磷 废水处理过程并不能非常有效地去除磷 在液体中会有高浓度的磷
+So sewage contains on phosphorus. The wastewater treatment process doesn't really remove phosphorus very efficiently, so there might be skilled quite high concentration of phosphorus in the in the uh affluid.
+
+250
+00:32:22,050 --> 00:32:33,010
+磷 正如我们所知 是一种能刺激藻类生长的营养物质它能在接受水里引发排泄
+And phosphorus, as we know, is a nutrit which stimulates algae and could make could trigger dutification in the receiving water.
+
+251
+00:32:33,230 --> 00:32:39,550
+三级处理通常用来去除些营养物质 尤其是磷
+So tertiary treatment is often used to remove these nutrients, particularly phosphorus.
+
+252
+00:32:39,970 --> 00:33:00,160
+只是引入了一种盐 一种化学触发器 就像氯化铁或铝盐板 基本上与水中的磷反应 使其沉淀 设置 水可以以低得多的化石浓度排放
+And that might be just introducing a salt, a chemical trigger, like iron chloride or aluminium salt plate that basically react with the phosphorus in the water, makes it precipitate, and that setting that, and then water can be discharged with a much lower fossil concentration.
+
+253
+00:33:00,440 --> 00:33:11,680
+我们称之为磷酸盐 严格来说 另一种对待最后的富人的方式是使用一种叫做抛光池的东西
+We call that phosphate. Strictly, another way to treat the The final affluent is something using something called polishing ponds.
+
+254
+00:33:12,080 --> 00:33:16,310
+我们基本上是在利用湿地来去除养分
+We're basically using wetlands to remove the nutrients.
+
+255
+00:33:16,550 --> 00:33:19,570
+本质上 如果你有空格
+So essentially you're pulling if you've got a space.
+
+256
+00:33:19,730 --> 00:33:21,950
+是弥尔顿·金地区的愤怒
+So this angry here from Milton king's area.
+
+257
+00:33:23,580 --> 00:33:32,060
+没有 如果你来自小国王 你的废水被愤怒的水虐待
+No Um. If you were from little kings, your wastewater mistreated by angry water.
+
+258
+00:33:32,320 --> 00:33:37,140
+我把水排放到最后剩下的地方 你们可以在中间看到
+And I give water discharge the final left room into these parts you can see in the middle.
+
+259
+00:33:37,390 --> 00:33:49,440
+ 它们是相当大的池塘 它们有相当少的树脂时间在夏天 很多植物在那里生长 些植物吸收营养
+Um. They're quite big ponds. They've got a reasonably little resins time During the summer, a lot of plants grow in there, and those plants take up the nutrients.
+
+260
+00:33:49,740 --> 00:33:57,060
+是一种拒绝磷酸盐浓度的方法通过把最后的剩下来解决些问题
+And so that's one way of refusing phosphate concentration by putting the final left and through these problems.
+
+261
+00:33:57,100 --> 00:34:03,700
+不管怎么说 想法你你去掉了你去掉了营养
+And the idea is anyway that you you remove the you remove the nutrients.
+
+262
+00:34:08,180 --> 00:34:11,600
+那么 当向前的方式被添加到一条河时会发生呢
+So what happens when ways forward to is added to a river?
+
+263
+00:34:11,760 --> 00:34:18,580
+是对富人的治疗 也是对富人治疗的直接指控
+So that could be either the treated affluent, or in the case of a direct this charge of of the untreated affluence.
+
+264
+00:34:18,740 --> 00:34:21,060
+在张图中我们可以看到两种情况
+And here we've got both in this picture.
+
+265
+00:34:21,060 --> 00:34:25,320
+是我在意大利和意大利北部的日子
+And this is actually from my days in Italy and northern Italy.
+
+266
+00:34:25,480 --> 00:34:30,150
+但是米兰以北几公里处的兰德罗河
+Um, but this is the river landro quite a few kilometers north of Milan.
+
+267
+00:34:30,390 --> 00:34:36,110
+在张照片的前景中 你可以看到整个水面上的很多东西
+And what you see in the foreground of this picture, you can see quite a lot over all the water.
+
+268
+00:34:36,500 --> 00:34:44,570
+好吧 那不应该发生 你不应该在治疗过的人身上看到手机
+OK That shouldn't really happen. You shouldn't see phone in a treated escalant.
+
+269
+00:34:44,730 --> 00:34:50,350
+它得到了很好的处理 好吧 我把手机放在里的原因是 一切都结束了
+It's been well treated. Okay? The reason why I've got phone here is that this is actually over.
+
+270
+00:34:50,790 --> 00:34:53,550
+肯定不是条约的问题 贸易估计实际上下降了
+It's not the treaty, definitely. The trade estimate is actually down.
+
+271
+00:34:53,570 --> 00:34:59,680
+在照片的上方 你可以看到人 是我 实际上站在另管道上
+Then right on the top of the picture, you can see someone, which might be me, actually standing on another pipe.
+
+272
+00:35:00,320 --> 00:35:06,140
+但它实际上是在让擦漆工作的护卫队离开商店 就在右边
+But it's actually discharging the escort from the sooge work, which actually out out of shop just to the right.
+
+273
+00:35:06,540 --> 00:35:18,670
+有问题 特别的激增在当时是没有能力的 它不能处理所有白天的流入
+Some problem with this, this um particular surge works is it was under capacity at the time, so it couldn't treat all of the daytime inflows.
+
+274
+00:35:18,830 --> 00:35:25,060
+因此 在白天 大量未经处理的废水排放到河流中
+And so during the day, large volumes of untreated wastewater discharge into the river.
+
+275
+00:35:25,220 --> 00:35:28,100
+我们稍后会有关于的例子
+And we'll have a case of later about this.
+
+276
+00:35:28,260 --> 00:35:36,790
+我要给你们讲关于我在意大利研究系统的故事
+I'll tell you a story about my time in Italy working on this, of this particular system.
+
+277
+00:35:36,980 --> 00:35:40,890
+无论是治疗还是治疗过程
+Whether it's treated or the processes
+
+278
+00:35:41,170 --> 00:35:49,350
+唯一的区别是未经处理的排放 污染物的浓度要高得多
+that operate in the river of the same The only difference is with an untreated discharge, the concentrations of much higher of the pollutants.
+
+279
+00:35:49,530 --> 00:35:56,220
+对于未经处理的排放中beard的浓度会远远高于树状排放中的浓度
+For the concentration of bear d in the untreated discharge will be much, much higher than the concentrations in the tree of discharge.
+
+280
+00:35:56,600 --> 00:36:03,980
+污水处理厂通常可以去除95%的B-O-D
+So sewage works can typically remove 95% of the B-O-D.
+
+281
+00:36:04,360 --> 00:36:10,030
+好吧 是 是很多 好吧 我们说的是非常显著的减少
+Okay, that's, that's a lot. Okay, so we were talking about a very significant reduction.
+
+282
+00:36:10,430 --> 00:36:12,930
+与小条约相比 B-O-D是一种治疗努力
+B-O-D is a treatment effort compared with a little treaty.
+
+283
+00:36:13,730 --> 00:36:22,550
+想法基本上是V-O-D是一种可降解有机材料的有机混合物
+And the idea basically is that the V-O-D is a degradable organic mixture of degrading organic material.
+
+284
+00:36:22,970 --> 00:36:28,310
+是糖交换了1206个蓝色的玻璃 举个例子
+Here's a sugar sees exchanged Twelve hundred and six blue panes, just as an example.
+
+285
+00:36:29,070 --> 00:36:39,240
+在水中 微生物利用葡萄糖作为能量来源 并与氧气结合 产生二氧化碳
+In the water, microorganisms use that glucose as an energy source, and combined with oxygen, they produce carbon dioxide.
+
+286
+00:36:39,480 --> 00:36:47,600
+它们会生长 它们会用些物质来生长 但它们肯定会用些物质来维持生命和提供能量
+They might grow, they might use some of that material for growth, but they certainly use it for for maintenance and energy.
+
+287
+00:36:47,860 --> 00:36:52,320
+过程中就排除了二氧化碳和水
+So kicked out of this process is carbon dioxide with water.
+
+288
+00:36:52,560 --> 00:36:54,600
+和光合作用正好相反
+It's kind of opposite the photosynthesis.
+
+289
+00:36:55,280 --> 00:36:57,340
+是呼吸 是呼吸
+It's a respir-, it's a respiration.
+
+290
+00:36:57,500 --> 00:37:04,430
+是呼吸过程 好的 些后合成 你得到二氧化碳和水 它们产生葡萄糖 氧
+It's, it's a respiratory process. Okay, those postsynthesis, you get carbon dioxide and water, they make glucose, an oxygen.
+
+291
+00:37:04,470 --> 00:37:06,930
+在呼吸过程中 情况正好相反
+In respiration, you get the opposite.
+
+292
+00:37:07,090 --> 00:37:17,970
+你有了有机物质 用氧气氧化有机分子 如果是有氧过程 你就能排出二氧化碳
+You've got the organic material, knee oxygen to oxidize the organic molecule, and you kick out carbon dioxide if you if this is an aerobic process.
+
+293
+00:37:18,180 --> 00:37:21,720
+微生物的种能力 他们看到了
+So the microorbial ability doing this, they see this.
+
+294
+00:37:21,880 --> 00:37:33,340
+水中的任何有机物都将成为微生命的潜在能量来源
+Any organic matter in the water will will be a potential energy source for the micro There is reanimation.
+
+295
+00:37:34,540 --> 00:38:14,150
+谈谈在节课 下下周 因为氧气消耗的微生物是打破现在 所有些有机物在水中 他们使用氧气 但氧气也从空气中进入水 通常是在一条河 是在空气中的传播 特别是如果耗尽氧气 水 扩散到水中的速率实际上更高 随着氧气浓度的降低而增加 我们测量是历史上的
+Talk about that later in this lecture, and next next week, because oxygen is consumed as the microorganisms are breaking Now, all of this organic matter in the water, they're using oxygen, but oxygen is also entering the water from the air, usually in a river, so it's diffusing in from the air, particularly if that water has is depleted in oxygen, the diffusion rate into the water is actually higher, increases as the as the concentration of oxygen decreases, we measure the This is kind of historical.
+
+296
+00:38:14,310 --> 00:38:36,090
+我们样做的原因 基本上 不是测量废水或河流中的有机物量 传统上 我们所做的是测量生化需氧量 对吧
+Um, the reason why we do it this way, basically, um, rather than measure the amount of organic matter in waste water or in the river, um, traditionally, what has done is a measure is taken of the biochemical oxygen demand, okay?
+
+297
+00:38:36,250 --> 00:38:43,670
+生化需氧量概念来源于测试 真的吗
+And the the idea of the bio of biochemic oxygen demand derives from the test, really?
+
+298
+00:38:43,850 --> 00:38:50,200
+好吧 基本上 水中有多少有机物是通过一种叫做BMB的测试来确定的
+Okay? So basically, how much organic matters in that water is determined using this test called BMB test.
+
+299
+00:38:50,360 --> 00:38:53,300
+BV五次测试 好吗 或罪犯5
+BV five tests, OK? Or B-D five.
+
+300
+00:38:53,730 --> 00:39:03,250
+它发生在5天内 你要做的是非常缓慢 基本上 你有一些血管
+It occurs over five days. What you do is you very slow, no, and you basically, you've got some vessels there.
+
+301
+00:39:03,410 --> 00:39:36,270
+下面里 你把你的垃圾 你的水样本 是河流样本 或废水样品 无论如何 把它放到容器里面 你看到inocular的很小的量 一种细菌innocular 源于是过程 基本上一些细菌降解有机物 看氧气消耗的速率 对吧
+Down here, you put your waste, your water sample, could be a river sample, or a wastewater sample, whatever, put it into a vessel, you see it with a very small quantity of an inocular, a bacterial innocular, that could re derive from the suis process, basically some bacteria that you know degrades organic matter, and you look at how much oxygen at the rate at which oxygen is consumed, okay?
+
+302
+00:39:36,430 --> 00:39:59,770
+因为当有机地图被你引入的接种剂降解时 容器中的氧气 会开始减少 因为我们次没有排列 我们只看氧气的消耗 你测量氧气的消耗 是随着时间的推移 些选项的使用频率通常是用来摆脱种系统的
+Because as that organic map is degraded by the inocular you introduce, the oxygen in the vessel, will will start to decrease in situation, because we're not arrating this time, so we just looking at the consumption of oxygen, and you measure the consumption of oxygen, this is the rate at which the options used over time to typically use that it kind of occurred to get out of that kind of system.
+
+303
+00:40:00,040 --> 00:40:06,280
+你在特定的温度下读到些 通常是20度
+You read about this at a particular temperature, usually 20 degrees, okay, um.
+
+304
+00:40:06,600 --> 00:40:14,010
+你可以在5天内 测量20度的时间内的选择消耗
+And you you measure the option consumption over time over that 20 degrees, at that 20 degrees, over that five days.
+
+305
+00:40:14,170 --> 00:40:17,290
+好吧 你的死期
+Okay? And that that is your B-O-D.
+
+306
+00:40:17,390 --> 00:40:24,990
+B-O-D B-O-D的单位 是a表示每升氧气的毫克数
+And the B-O-D, the units for B-O-D, and this is a are in milligrams of oxygen per liter.
+
+307
+00:40:25,250 --> 00:40:29,090
+我得到了种激活 会在有机内容中得到真正的乐趣
+I get with this activation, will get really pleasure in organic content.
+
+308
+00:40:29,310 --> 00:40:34,930
+但是在降解有机物的过程中消耗的是氧气
+But it's the oxygen that is consumed in degrading that organic matter.
+
+309
+00:40:35,150 --> 00:40:40,490
+好吧 对我来说 古巴的剂量是一样的
+Okay, the grounds for me, the Cuba have got there is the same milligram.
+
+310
+00:40:43,820 --> 00:40:45,910
+好了 我们现在看到的是
+Okay, so we're actually looking at at,
+
+311
+00:40:46,120 --> 00:40:52,910
+基本上 在5天或23天的时间里 我们消耗了多少氧气
+um, uh, basically, how, how, how much oxygen is consumed over five day period, or 23
+
+312
+00:40:53,000 --> 00:40:54,550
+在顶部A 你有一些东西
+at the top A, you've got something
+
+313
+00:40:54,780 --> 00:40:57,080
+叫ninetification 大家都知道是吗
+called ninetification. Everybody know what that is?
+
+314
+00:40:57,460 --> 00:40:58,190
+你还记得
+You remember
+
+315
+00:40:58,360 --> 00:41:02,100
+从开始 第一年和第二年生物地球化学循环
+from the off, 1st and 2nd year biogeochemical cycles.
+
+316
+00:41:09,420 --> 00:41:14,680
+有人想猜一下耐克的产品吗
+Anybody like to guess doing something Nike?
+
+317
+00:41:14,840 --> 00:41:16,960
+是吗 那么是呢
+Is it? So what might be?
+
+318
+00:41:17,120 --> 00:41:20,420
+让我转换吗 还记得是吗
+Make me converted? Remember what it is?
+
+319
+00:41:24,740 --> 00:41:33,090
+13 硝酸钠各种修改 炒了 炒了
+Nitrate all kind of revise, fired, fire.
+
+320
+00:41:33,250 --> 00:41:36,970
+就忘了 你在为考试复习就忘了它了
+And forget, you sort of revise for the exam and then and forget about it.
+
+321
+00:41:37,170 --> 00:41:48,210
+基本上 是过程 铵被转化成我尝试过的第一种 变成不评级
+Basically, it's a process whereby ammonium is converted into 1st of all that I tried, and then into not rating.
+
+322
+00:41:50,930 --> 00:41:56,580
+随着过程的进行 你可以看到氧气被添加到最后
+And as this process proceed, you can see that actually oxygen has been added to the end.
+
+323
+00:41:56,740 --> 00:42:01,860
+每一次 你都有两个选项加到最后
+Okay, so each time, so you got two options added to the end.
+
+324
+00:42:01,880 --> 00:42:04,980
+你有3头多出来的牛
+You got three of the the an extra ox to the end there.
+
+325
+00:42:05,180 --> 00:42:10,740
+是过程 夜化过程是氧化的过程
+This is a process, the nightification process is a process of oxidation.
+
+326
+00:42:11,220 --> 00:42:20,830
+emoium被那些特殊物质氧化成硝酸盐那需要氧气
+The emoium is oxidized to nitrate by those specials my And that uses oxygen.
+
+327
+00:42:20,990 --> 00:42:25,750
+你需要 你需要从某处得到些氧气 些氧气来自水
+You need to, you need to get this oxygen from somewhere, and that that's coming from the water.
+
+328
+00:42:25,770 --> 00:42:36,190
+除了在有机化合物的降解过程中消耗氧气外 我们也在通知过程中消耗了一些氧气
+So as well as oxygen being consumed in the degradation of organic compounds, we've also got some oxygen being consumed in notification.
+
+329
+00:42:36,300 --> 00:42:42,180
+基本上是发生的 通常是在五天之后
+And that's basically occurring, usually after the five day period.
+
+330
+00:42:42,520 --> 00:43:16,800
+但通常 如果你做A-B-O-D测试 你会添加一些东西来抑制形成反应的微生物 硝化剂 和烘烤 你基本上不会混淆在分解你的袋子物质时消耗的氧气 你消耗氧气的通知率通常会提高温度
+But often, if you do it A-B-O-D test, you will add something that inhibits the microbes that form this reaction, the nitrofiers, and bake, so you basically don't get any confusion between the oxygen consume in in degrading your bag matter, and the option you consuming notification rate at which oxygen is utilized will be will generally increase the temperature.
+
+331
+00:43:16,960 --> 00:43:29,370
+大多数化学反应随着温度的升高而增加 但大多数微生物介导的反应也随着温度的升高而增加
+So most chemical reactions increase with temperature, but also most microbially mediated reactions also increase with temperature.
+
+332
+00:43:29,530 --> 00:43:35,960
+张幻灯片展示的是 瓶子中氧气的利用率取决于温度
+So this slide is just showing, but the rate at which the oxygen is utilized in a bottle will depend on the temperature.
+
+333
+00:43:36,120 --> 00:43:44,290
+如果温度达到5度 那么在5天内氧气消耗就会减少
+If you have that five degrees than less oxygen will be consumed in a five day period.
+
+334
+00:43:44,310 --> 00:43:47,970
+如果温度是25度 就会消耗更多的氧气
+If you have at a 25 degrees and more oxygen will be consumed.
+
+335
+00:43:48,210 --> 00:43:54,380
+通常测试的标准温度是20度
+And usually the uh, the test is set at a standard temperature of 20 degrees.
+
+336
+00:43:54,540 --> 00:43:58,960
+你把它放在能保持20度温度的培养箱里
+You put it in an incubator that is able to maintain the temperature 20 degrees.
+
+337
+00:44:01,450 --> 00:44:22,840
+河流中真正发生的是有机物 APAB和D 在河流中被微生物降解通常出现在河床的表面 在河床的背面 那里是河流中大部分生物燃料的地方 而不是水柱
+What's actually going on in the river is that organic matter, APA B of D, is degraded in the river by the microbes present in the often on the surfaces of the bed, in the backs, that's where most of the biofuel in the river, not in the water column.
+
+338
+00:44:22,840 --> 00:44:29,120
+是我们的河的横截面是我们的水面
+So here's our, here's our river cross section is our our water surface.
+
+339
+00:44:31,580 --> 00:44:40,960
+在水柱中 你会有自由悬浮的微生物菌落生活在水柱中
+Within the water column, you will have free suspended colonies of microbes that live in the water column.
+
+340
+00:44:41,120 --> 00:45:05,760
+你会有一些微生物生活在悬浮颗粒上 在水柱中悬浮 但大多数能够很好地氧化B-D的微生物实际上会在床的表面 在河岸上 那些生活在河底的沉积物
+And you'll have some microbes that live on suspended particle, suspended solitude in the water columns, but most of the organisms that can actually do a good job in terms of oxidizing B-D is actually, are actually going to be on the surfaces of the bed, in the banks, the the sediment that lives the the the sediment that that that is at the bottom of the of the river.
+
+341
+00:45:05,920 --> 00:45:15,220
+好吧 微生物就在那里 它们利用水柱中的氧气来完成降解过程
+Okay? That's where microbes are. And they use oxygen in the water column to perform the degradation process.
+
+342
+00:45:15,460 --> 00:45:24,630
+在过程中 它们消耗氧气 但排出二氧化碳 氧气会与大气交换
+And in in that process, they they consume oxygen, but they kick out carbon dioxide, an oxygen will be exchanged with the atmosphere.
+
+343
+00:45:24,790 --> 00:45:43,050
+如果他们消耗氧气 更多的氧气将由飞行员提供 通过空气 从大气中扩散到受影响的身体
+So if they degree, if they consume oxygen, more oxygen will be the um will be supplied by the pilot, by the air, and diffuse into the influenced body from from the atmosphere.
+
+344
+00:45:43,310 --> 00:45:43,510
+率
+The rate
+
+345
+00:45:43,830 --> 00:45:48,270
+与我们所说的氧气不足成正比
+at which that happens is proportional to what we call the oxygen deficit,
+
+346
+00:45:49,190 --> 00:45:55,510
+发生在交易上的旧教条
+which this is what's happening in terms of deal this old doctrine.
+
+347
+00:45:55,600 --> 00:46:02,310
+是我们的下午 好吗 结果是 在努力之后 得到很大的
+So here's our afternoon, okay? And what happens is, just after the effort, get a big
+
+348
+00:46:02,530 --> 00:46:07,290
+增加骨密度 蓝色实线是B-D
+increase in BMD. That the blue solid line there is is B-D.
+
+349
+00:46:07,590 --> 00:46:09,450
+是美丽 浓度上升
+It's a beauty. Concentration goes up.
+
+350
+00:46:09,450 --> 00:46:18,360
+随着些微生物的喷射 所有的有机物 B-O-D浓度 下降了 因为微生物利用或没有减少能量
+And then as those microbes sprayed, all of that organic matter, the B-O-D concentration, comes down because the microbes are utilizing or not reduce, the energy.
+
+351
+00:46:18,580 --> 00:46:23,710
+在过程中 它们把氧气从边界柱中移走
+And in the process, they they move oxygen from the border column.
+
+352
+00:46:24,050 --> 00:46:27,110
+氧是通过表面扩散而加入的
+Oxygen is being added by diffusion from the surface.
+
+353
+00:46:27,300 --> 00:46:41,950
+在一点上 氧气通过扩散进入系统的速率显然超过了微生物和选择浓度开始恢复的速率
+At this point, the rate at which oxygen is entering the system by diffusion exceeds the rate of which, obviously consume either microbial and the option concentration, start to recover.
+
+354
+00:46:42,250 --> 00:46:45,880
+就像我周二说的 叫做氧气袋
+And as I said on Tuesday, this is called the oxygen sack.
+
+355
+00:46:48,000 --> 00:46:57,640
+氧气扩散到水体中的速率与我们所说的饱和桌成正比
+The rate at which oxygen diffuses into the water body is proportional to what we call something called the the saturation desk.
+
+356
+00:46:58,000 --> 00:47:05,060
+好吗 试着在张幻灯片上解释一下 我想在我解释完篇文章后我会结束
+OK? And try and explain this to this slide, and I think I'm gonna finish after I've explained this this post.
+
+357
+00:47:06,110 --> 00:47:20,460
+红线表示容器中溶解氧的浓度是热力学平衡 对吧
+The red line basically shows the concentration of dissolved oxygen in a vessel Art thermodynamic equilibrium, OK?
+
+358
+00:47:20,460 --> 00:47:37,810
+可育马驹的基本意思是一种动态的 稳定的状态 在种状态下 氧气从水中扩散出来 等于氧气因为卵而扩散到水中
+The fertile equipine basically means a condition of dynamic, steady state, in which the diffusion of oxygen out of the water is equal to the diffusion of oxygen into the water because of egg.
+
+359
+00:47:37,970 --> 00:47:42,870
+是进入水分子和离开水分子之间的平衡
+Those are balance between how many water molecules are actually entering, how many are leaving.
+
+360
+00:47:43,030 --> 00:47:45,990
+离捕获系统还有几个月的时间
+It's a bit like a few months from catching systems.
+
+361
+00:47:46,150 --> 00:47:52,230
+去年我讲了VAPO蒸发 用种方法使压力饱和
+Last year I talked about a VAPO evaporation and saturate a very pressure in this way.
+
+362
+00:47:52,390 --> 00:47:56,460
+好 想象一下 我的意思是 瓶子 作为例子
+Okay, so imagine use, I mean, bottle, as an example.
+
+363
+00:47:56,660 --> 00:48:02,640
+假设我们有瓶子 瓶子里含有溶解在水中的一些氧气
+Imagine we have this bottle. This bottle contains some oxygen dissolved in the water.
+
+364
+00:48:02,800 --> 00:48:08,000
+好吗 当然 你有头部空间里面有21%的氧气 对吧
+OK? And of course, you've got a head space which has got 21% oxygen in it, OK?
+
+365
+00:48:08,020 --> 00:48:11,990
+头部空间中有很多氧分子 对吧
+There's lots of oxygen molecule in the head space, OK?
+
+366
+00:48:12,150 --> 00:48:20,050
+氧分子之间会有动态的交换它是在顶空中 和溶解在水中的小分子之间
+And there will be a dynamic exchange between oxygen molecules it was in a headspace, and noshy molecules in the dissolved in the water.
+
+367
+00:48:20,210 --> 00:48:36,510
+好吧 如果你把它放在特定的温度下 是的 它最终会达到一种叫做热力学平衡的状态 在种状态下 你知道 基本上没有观察系统的净输入
+Okay? And if you leave this in particular temperature, yeah, that eventually reaches something called theodynamic equilibrium, in which the favorite palace, you know, basically there's no net input of watching into the system.
+
+368
+00:48:36,610 --> 00:48:39,390
+不管系统里还有选项 好吗
+And no matter what option it leaves in system, OK?
+
+369
+00:48:39,550 --> 00:48:49,020
+但是如果我把Onto从水中移开 那么物理学就会重新建立起来
+But if I remove Onto from the water, OK, then the physics wants to kind of re establish, literally.
+
+370
+00:48:49,280 --> 00:49:05,000
+在一点上 如果我把氧气从水中移走 我们就会降低水中的浓度 让它爆炸 降低活力在livium水平 也我们所说的饱和水平 氧气会倾向于从另地方扩散进来
+So at that point, if I remove oxygen from the water, then we reduce the concentration in the water to blow up, lower dynamic at the livium level, which we call the saturation level, and oxygen will will tend to diffuse in from the other.
+
+371
+00:49:05,240 --> 00:49:15,060
+一旦你取任何温度的氧气浓度低于条线 就会有氧气再次扩散到水中
+As soon as you take the oxygen concentration of any temperature below that line, there will be a next diffusion of oxygen into water.
+
+372
+00:49:15,220 --> 00:49:18,380
+好吧 如果你越界了 他们就不会么做了
+Okay? If you're out the line, they won't that.
+
+373
+00:49:18,400 --> 00:49:24,820
+在温度下的浓度 假设是10度 在桥上已经很冷了 对吧
+That the concentration at this temperature, which let's say is ten degrees, it's quite cold you've got in the bridge, OK?
+
+374
+00:49:24,980 --> 00:49:31,950
+在10度的时候 会有 比如说 2毫克的氧气 完全可以忽略水
+So at ten degrees, there will be, say, at that, .2 milligrams of oxygen, totally to ignore water.
+
+375
+00:49:32,110 --> 00:49:33,850
+好吧 样了
+Okay, that's, that's what it'll be.
+
+376
+00:49:34,270 --> 00:49:42,280
+但是如果你去除氧气 比如说 如果你添加一些细菌 它们会利用选项 它们会降低选项浓度
+But if you remove the oxygen, say, if you add some bacteria and there that are utilizing that option, then they would reduce the option concentration.
+
+377
+00:49:42,540 --> 00:49:49,670
+如果我们把它留在那里 选项基本上会扩散进来 因为会有所谓的赤字 对吧
+Then if we just left it there, an option would basically diffuse in for that, because there'd be a so called deficit, okay?
+
+378
+00:49:49,850 --> 00:49:57,850
+亏缺的大小很重要因为从空气到水的扩散速率 与亏缺成正比
+And the size of that deficit is important because the rate of diffusion from the air, into the into the water, is proportional to that deficit.
+
+379
+00:49:58,010 --> 00:50:08,880
+如果亏空很大 如果浓度很低 假设是5 那么亏空就很大 水在水火中扩散的速度也很大
+If the deficit is big, so if the concentration is really low, let's say it's five, that leads to the deficit is big, and the rate at which the water will diffuse in water fire.
+
+380
+00:50:08,920 --> 00:50:20,880
+好的 你可以看到 在果园里 在南边的曲线上 我们得到的不是浓度 在左边 我们得到的是饱和度
+Okay, so you can see, based in the orchard, in the south curve, again, we've got, instead of concentration, on the left, we've got percent of saturation.
+
+381
+00:50:21,540 --> 00:50:26,400
+赤字你离饱和水平有多远
+The deficit is basically how far you are away from that that saturation level.
+
+382
+00:50:26,560 --> 00:50:29,940
+在氧侧曲线中 有最大的缺氧量
+In the oxygen side curve, you have the maximum deficit.
+
+383
+00:50:30,390 --> 00:50:47,460
+在氧气浓度最低的地方 在一点上氧气扩散到水中是最高的因为开始超过了氧气被微生物利用的情况
+And where the oxygen concentration is lowest, and at that point the oxygen diffusion ran into the water is quite is highest because and and starts to exceed the raid in which oxygen is being utilized by the microbes.
+
+384
+00:50:47,850 --> 00:50:53,470
+两个区域被称为保留区退化
+And this is these two zones are called reserve degravation.
+
+385
+00:50:54,690 --> 00:50:54,750
+和
+And
+
+386
+00:50:58,850 --> 00:51:08,960
+不了 但偶尔人们还是会称过程为自然净化过程 因为
+not anymore. But occasionally people still refer to this process as the natural purification process, because
+
+387
+00:51:09,200 --> 00:51:15,250
+实际上你所做的是通过过程净化你从骨密度中移除的水
+really what you're doing is you are a kind of purifying the water you remove in the BMD via this process.
+
+388
+00:51:15,570 --> 00:51:24,990
+事情样发生的 人们等着进来
+And and this is how it all happens, it's people waiting to come in.
+
+389
+00:51:25,150 --> 00:51:32,650
+今天就讲到里 下周二再讲
+So I'm going to finish now, and I will pick up this on Tuesday.
+
+390
+00:51:33,090 --> 00:51:42,220
+我不会要求你们看节课来选择你们以及我下周二要讲的内容的价值
+Not going to ask you to look at the lecture to choose you and on any value about what I want to do for next Tuesday.
+
+391
+00:51:42,440 --> 00:51:45,460
+基本上下周二的课程是标准的 就在里
+So basically the next Tuesday will be a standard lecture, right here.
+
+392
+00:51:47,260 --> 00:51:50,190
+有人有问题吗 的
+Anybody who got any questions? The.
