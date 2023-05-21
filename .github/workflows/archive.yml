@@ -1,9 +1,9 @@
-name: Create Archive
+name: Create Archive and Release
 
 on:
   push:
     branches:
-      - main  # 或者是你想触发自动生成压缩包的分支
+      - main
 
 jobs:
   build:
@@ -20,3 +20,25 @@ jobs:
           done
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Create Release
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: v1.0  # 你可以自定义 Release 的标签名
+          release_name: Release v1.0  # 你可以自定义 Release 的名称
+          draft: false
+          prerelease: false
+
+      - name: Upload Archives to Release
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: |
+            y*/s*/*.zip
+          asset_name: ${{ github.run_number }}_{​​​​​​​​{​​​​​​​​env.FOLDER}​​​​​​​​}​​​​​​​​.zip  # 可以自定义生成的压缩包名称
+          asset_content_type: application/zip
