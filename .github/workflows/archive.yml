@@ -17,38 +17,51 @@ jobs:
         run: |
           pip install pypinyin
 
-      - name: Create and compress folders
+      # - name: Create and compress folders
+      #   run: |
+      #     shopt -s nullglob
+      #     folders=("y2s1" "y2s2" "y3s1" "y3s2")
+      #     pwd
+      #     for folder in "${folders[@]}"; do
+      #       for dir in "$folder"/*/; do
+      #         echo "Found directory: $dir"
+      #         parent_dir=$(dirname "$dir")
+      #         base_dir=$(basename "$dir")
+      #         pinyin=$(python -c "from pypinyin import lazy_pinyin; import sys; sys.stdout.write(''.join(p[0] for p in lazy_pinyin('${base_dir// /}')))")
+      #         zip_name="${parent_dir}_${pinyin}.zip"
+      #         zip -r "$zip_name" "$dir"/*
+      #       done
+      #     done
+      #   env:
+      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Create Release File and Body
         run: |
-          shopt -s nullglob
-          folders=("y2s1" "y2s2" "y3s1" "y3s2")
-          pwd
-          for folder in "${folders[@]}"; do
-            for dir in "$folder"/*/; do
-              echo "Found directory: $dir"
-              parent_dir=$(dirname "$dir")
-              base_dir=$(basename "$dir")
-              pinyin=$(python -c "from pypinyin import pinyin; import sys; sys.stdout.write(''.join(p[0] for p in pinyin('${base_dir// /}')))")
-              zip_name="${parent_dir}_${pinyin}.zip"
-              zip -r "$zip_name" "$dir"/*
-            done
-          done
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
+          python .github/workflows/cn2en.py
+      
       - name: Create Release
-        id: create_release
-        uses: actions/create-release@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        uses: ncipollo/release-action@v1
         with:
-          tag_name: working
-          release_name: 分课程下载
-          draft: false
-          prerelease: false
+          artifacts: "*.zip"
+          bodyFile: "release_body.md"
+          token: ${{ secrets.YOUR_GITHUB_TOKEN }}
+          tag: "working"
+          name: "分课程下载"
 
-      - name: Upload Archives to Release
-        uses: AButler/upload-release-assets@v2.0
-        with:
-          files: '*.zip'
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
-          release-tag: working
+      # - name: Create Release
+      #   id: create_release
+      #   uses: actions/create-release@v1
+      #   env:
+      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      #   with:
+      #     tag_name: working
+      #     release_name: 分课程下载
+      #     draft: false
+      #     prerelease: false
+
+      # - name: Upload Archives to Release
+      #   uses: AButler/upload-release-assets@v2.0
+      #   with:
+      #     files: '*.zip'
+      #     repo-token: ${{ secrets.GITHUB_TOKEN }}
+      #     release-tag: working
