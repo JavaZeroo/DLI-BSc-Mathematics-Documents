@@ -1,0 +1,22 @@
+name: Create Archive
+
+on:
+  push:
+    branches:
+      - main  # 或者是你想触发自动生成压缩包的分支
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Create and compress folders
+        run: |
+          for dir in y*/s*/; do
+            zip -r "${dir%/}.zip" "$dir"
+          done
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
