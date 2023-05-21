@@ -32,6 +32,7 @@ def main():
                         for chars in lazy_pinyin(sub_folder.name):
                             zip_name += chars
                         zip_name += '.zip'
+                        zip_name = zip_name.replace(' ','_')
                         df['课程名称'].append(sub_folder.name)
                         df['文件'].append(f'[{zip_name}](https://github.com/JavaZeroo/DLI-BSc-Mathematics-Documents/releases/download/working/{zip_name})')
                         # zip(sub_folder, zip_name)  
