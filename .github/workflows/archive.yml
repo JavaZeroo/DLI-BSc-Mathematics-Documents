@@ -47,6 +47,7 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           tag: "working"
           name: "分课程下载"
+          allowUpdates: true
 
       # - name: Create Release
       #   id: create_release
