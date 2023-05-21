@@ -13,9 +13,9 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
         
-      - name: Install pypinyin
+      - name: Install requirements
         run: |
-          pip install pypinyin pandas
+          pip install pypinyin pandas tabulate
 
       # - name: Create and compress folders
       #   run: |
