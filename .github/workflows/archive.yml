@@ -15,7 +15,7 @@ jobs:
         
       - name: Install pypinyin
         run: |
-          pip install pypinyin
+          pip install pypinyin pandas
 
       # - name: Create and compress folders
       #   run: |
