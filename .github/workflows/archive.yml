@@ -12,6 +12,10 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
+        
+      - name: Install pypinyin
+        run: |
+          pip install pypinyin
 
       - name: Create and compress folders
         run: |
@@ -23,7 +27,8 @@ jobs:
               echo "Found directory: $dir"
               parent_dir=$(dirname "$dir")
               base_dir=$(basename "$dir")
-              zip_name="${parent_dir}_${base_dir}.zip"
+              pinyin=$(python -c "from pypinyin import pinyin; import sys; sys.stdout.write(''.join(p[0] for p in pinyin('${base_dir// /}')))")
+              zip_name="${parent_dir}_${pinyin}.zip"
               zip -r "$zip_name" "$dir"/*
             done
           done
