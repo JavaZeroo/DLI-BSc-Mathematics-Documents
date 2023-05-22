@@ -35,7 +35,7 @@ def main():
                         zip_name = zip_name.replace(' ','_')
                         df['课程名称'].append(sub_folder.name)
                         df['文件'].append(f'[{zip_name}](https://github.com/JavaZeroo/DLI-BSc-Mathematics-Documents/releases/download/working/{zip_name})')
-                        # zip(sub_folder, zip_name)  
+                        zip(sub_folder, zip_name)  
                         # f.write(f'{sub_folder.name}\n[{zip_name}](https://github.com/JavaZeroo/DLI-BSc-Mathematics-Documents/releases/download/working/{zip_name})\n\n')
         f.write(pd.DataFrame(df).to_markdown(index=False))
     pass
