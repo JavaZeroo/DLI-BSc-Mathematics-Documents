@@ -1,0 +1,10 @@
+f = [14 11 12 10 12 18];
+Aeq = repmat(eye(3),1,2); % same as [eye(3) eye(3)]
+beq = [6;8;16];
+A = [1 1 1 0 0 0;0 0 0 1 1 1];
+b = [10;20];
+intcon = 1:6;
+lb = zeros(size(f));
+ub = [];
+x = intlinprog(f,intcon,A,b,Aeq,beq,lb,ub)
+x = intlinprog(f,intcon,[],[],[Aeq;A],[beq;b],lb,ub)
