@@ -13,3 +13,25 @@ y3s1/人工智能的数学/大作业/__pycache__/utils.cpython-310.pyc
 
 # Microsoft临时文件
 ~$*
+
+# Latex
+*.aux 
+*.bit 
+*.blg 
+*.bbl 
+*.lof 
+*.log 
+*.lot 
+*.glo 
+*.glx 
+*.gxg 
+*.gxs 
+*.idx 
+*.ilg 
+*.ind 
+*.out 
+*.url 
+*.svn 
+*.toc
+*.dvi
+*.synctex.gz
