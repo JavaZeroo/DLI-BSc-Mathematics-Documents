@@ -1,0 +1,451 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{hyperref}
+\usepackage{tocloft}
+\usepackage{multirow}
+
+% \documentclass[tikz,border=10pt]{standalone}
+\usepackage{tikz}
+\usetikzlibrary{automata, positioning, arrows}
+
+\usepackage[framed,autolinebreaks,useliterate]{mcode}
+
+\title{Coursework 3 Answer}
+\author{Junbiao Li - 209050796}
+\date{\today}
+
+\renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}}
+% 对于 \section
+\renewcommand{\cftsubsecleader}{\cftdotfill{\cftdotsep}}
+% 对于 \subsection
+
+\begin{document}
+
+\maketitle
+\tableofcontents
+
+\clearpage
+\section{Question a)}
+
+Since we need to find that the minimum variance portfolio of the 10 stocks. We
+first calculate the weekly returns of the 10 stocks and expected return and
+variance of return, which can be calculate as
+\[
+    \begin{aligned}
+        \mathbb{E}\left[R_i\right] & =\frac{1}{60} \sum_{t=1}^{60} R_i(t),
+        \quad i=1, \cdots, 10                                              \\
+        \sigma_i^2                 & =\frac{1}{60}
+        \sum_{t=1}^{60}\left(R_i(t)-\mathbb{E}\left[R_i\right]\right)^2, \quad
+        i=1,
+        \cdots, 10                                                         \\
+        \sigma_{i j}               & =\frac{1}{60}
+        \sum_{t=1}^{60}\left(R_i(t)-\mathbb{E}\left[R_i\right]\right)\left(R_j(t)-\mathbb{E}\left[R_j\right]\right),
+        \quad i \neq j
+    \end{aligned}
+\]
+where \(R_i(t)=\frac{P_i(t)-P_i(t-1)}{P_i(t-1)}\).
+
+Hence, using MATLAB, we have the following results:
+\[
+    \text{expected return} =\left(
+    \begin{array}{r}
+            0.0032  \\
+            0.0035  \\
+            -0.0005 \\
+            0.0010  \\
+            -0.0016 \\
+            0.0180  \\
+            -0.0017 \\
+            0.0049  \\
+            -0.0045 \\
+            0.0014
+        \end{array}\right),
+\]
+
+\[
+    \begin{aligned}
+         & \text{covariances} = \\
+         & \left(
+        \begin{array}{rrrrrrrrrr}
+            0.0018 & 0.0002  & 0.0009 & 0.0008 & 0.0006  & 0.0009 &
+            0.0009 & 0.0004  & 0.0009 & 0.0005                      \\
+            0.0002 & 0.0008  & 0.0006 & 0.0003 & 0.0003  & 0.0002 &
+            0.0004 & -0.0001 & 0.0004 & 0.0003                      \\
+            0.0009 & 0.0006  & 0.0023 & 0.0012 & 0.0014  & 0.0012 &
+            0.0013 & 0.0001  & 0.0011 & 0.0007                      \\
+            0.0008 & 0.0003  & 0.0012 & 0.0020 & 0.0009  & 0.0010 &
+            0.0011 & 0.0005  & 0.0010 & 0.0008                      \\
+            0.0006 & 0.0003  & 0.0014 & 0.0009 & 0.0016  & 0.0007 &
+            0.0011 & -0.0001 & 0.0009 & 0.0006                      \\
+            0.0009 & 0.0002  & 0.0012 & 0.0010 & 0.0007  & 0.0032 &
+            0.0008 & 0.0003  & 0.0001 & 0.0007                      \\
+            0.0009 & 0.0004  & 0.0013 & 0.0011 & 0.0011  & 0.0008 &
+            0.0016 & 0.0002  & 0.0013 & 0.0007                      \\
+            0.0004 & -0.0001 & 0.0001 & 0.0005 & -0.0001 & 0.0003 &
+            0.0002 & 0.0010  & 0.0003 & 0.0003                      \\
+            0.0009 & 0.0004  & 0.0011 & 0.0010 & 0.0009  & 0.0001 &
+            0.0013 & 0.0003  & 0.0022 & 0.0006                      \\
+            0.0005 & 0.0003  & 0.0007 & 0.0008 & 0.0006  & 0.0007 &
+            0.0007 & 0.0003  & 0.0006 & 0.0009                      \\
+        \end{array}
+        \right)
+    \end{aligned}
+\]
+
+Now we can solve the following optimization problem using MATLAB with the
+solver for quadratic objective functions with linear constraints.
+The code is shown in Appendix \ref{lst:a}.
+
+\[
+    \begin{aligned}
+        \min _{x_1, \cdots, x_n} & \quad \sigma_p^2         \\
+        \text { Subject to }     & \quad \sum_{i=1}^n x_i=1 \\
+    \end{aligned}
+\]
+
+Setting \verb|H=2∗covariances;f=zeros(n_stocks,1);Aeq=ones(1,n_stocks);beq=1;|
+The result is
+
+\begin{itemize}
+    \item Weights of the portfolio: \\ \(
+          \begin{array}{rr}
+              \text{AHT.L:}  & 0.031339  \\
+              \text{CCH.L:}  & 0.446839  \\
+              \text{FRAS.L:} & -0.158178 \\
+              \text{MNG.L:}  & -0.069499 \\
+              \text{RMV.L:}  & 0.297457  \\
+              \text{RR.L:}   & 0.040424  \\
+              \text{SDR.L:}  & -0.034508 \\
+              \text{SHEL.L:} & 0.390948  \\
+              \text{STJ.L:}  & -0.008146 \\
+              \text{TSCO.L:} & 0.063325  \\
+          \end{array}
+          \)
+    \item Variance of the portfolio: 0.000314
+    \item Expected return of the portfolio: 0.004029
+\end{itemize}
+
+\section{Question b)}
+
+In this question, we need to find the Minimum variance portfolio with a
+specific expected return, which is
+
+\[\begin{aligned}
+        \min _{x_1, \cdots, x_n} & \sigma_p^2                \\
+        \text { Subject to }     & \mathbb{E}_p=\mathbb{E}_0 \\
+                                 & \sum_{i=1}^n x_i=1
+    \end{aligned}\]
+
+Like the previous question, we can solve the problem using MATLAB, however, we
+need to add the constraint \(\mathbb{E}_p=\mathbb{E}_0\). The code is shown in
+Appendix \ref{lst:b}.
+
+Setting \verb|H=2*covariances;f=zeros(n_stocks,1);target_return=0.015;|
+\verb|Aeq=[ones(1,n_stocks);expected_returns];beq=[1;target_return];| The
+result is
+
+\begin{itemize}
+    \item Weights of the portfolio: \\ \(
+          \begin{array}{rr}
+              \text{AHT.L:}  & 0.060745  \\
+              \text{CCH.L:}  & 0.686850  \\
+              \text{FRAS.L:} & -0.364956 \\
+              \text{MNG.L:}  & -0.129785 \\
+              \text{RMV.L:}  & 0.214895  \\
+              \text{RR.L:}   & 0.570912  \\
+              \text{SDR.L:}  & -0.231232 \\
+              \text{SHEL.L:} & 0.455774  \\
+              \text{STJ.L:}  & -0.026677 \\
+              \text{TSCO.L:} & -0.236526 \\
+          \end{array}
+          \)
+    \item Variance of the portfolio: 0.001171
+    \item Expected return of the portfolio: 0.015000
+\end{itemize}
+
+\section{Question c)}
+
+In this question, we need to Maximizing the utility, which is
+\(u=\mathbb{E}_p-0.5 \sigma_p^2\).
+Hence we need to setting
+\verb|kappa=0.5;H=2*kappa*covariances;f=-expected_returns;|
+\verb|Aeq=ones(1, n_stocks);beq=1;| The code is shown in Appendix \ref{lst:c}.
+
+The result is
+
+\begin{itemize}
+    \item Weights of the portfolio: \\ \(
+          \begin{array}{rr}
+              \text{AHT.L:}  & 0.407439  \\
+              \text{CCH.L:}  & 3.516466  \\
+              \text{FRAS.L:} & -2.802765 \\
+              \text{MNG.L:}  & -0.840536 \\
+              \text{RMV.L:}  & -0.758477 \\
+              \text{RR.L:}   & 6.825118  \\
+              \text{SDR.L:}  & -2.550508 \\
+              \text{SHEL.L:} & 1.220050  \\
+              \text{STJ.L:}  & -0.245152 \\
+              \text{TSCO.L:} & -3.771635 \\
+          \end{array}
+          \)
+    \item Maximum utility portfolio: 0.074028
+    \item Expected return of the portfolio: 0.144340
+\end{itemize}
+
+\section{Question d)}
+
+In this question, we are required to find the maximum return portfolio with a
+certain level of risk such that
+\(\sigma^2_p = 0.004\) which is
+
+\[\begin{aligned}
+        \max _{x_1, \cdots, x_n} & \mathbb{E}_p       \\
+        \text { Subject to }     & \sigma^2_p = 0.004 \\
+                                 & \sum_{i=1}^n x_i=1
+    \end{aligned}\]
+
+Since it is not a quadratic programming problem, we need to use the Lagrangian
+method to solve it.
+
+We have the Lagrangian function
+
+\[
+    \begin{aligned}
+        L(x_1, \cdots, x_n, \mu, \lambda) & =\mathbb{E}_p-\mu\left(\sum_{i=1}^n
+        x_i-1\right)-\lambda\left(\sigma^2_p-0.004\right)                                   \\
+                                          & =\mathbf{x}^T\mathbf{r} -\mu \left(\mathbf{x}^T
+        \mathbf{1}-1\right)-\lambda
+        \left(\mathbf{x}^T\mathbf{\Sigma}\mathbf{x}-0.004\right)                            \\
+        \text{where } \mathbf{r}          & =\left(\mathbb{E}_1, \cdots,
+        \mathbb{E}_n\right)^T                                                               \\
+        \mathbf{\Sigma}                   & =\left(\sigma_{i j}\right)_{n \times n}
+    \end{aligned}
+\]
+
+Now we can letting the derivatives of the Lagrangian with respect to \(x_1,
+\cdots, x_n, \mu, \lambda\) be zero, which is
+
+\[
+    \begin{aligned}
+        \frac{\partial L}{\partial x_i}     & =\mathbf{r} - \mu^T \mathbf{1} -
+        2\lambda \mathbf{\Sigma} \mathbf{x} = 0                                \\
+        \frac{\partial L}{\partial \mu}     & =\mathbf{x}^T \mathbf{1} - 1 = 0 \\
+        \frac{\partial L}{\partial \lambda} & =\mathbf{x}^T \mathbf{\Sigma}
+        \mathbf{x} - 0.004 = 0
+    \end{aligned}
+\]
+
+Hence, we can use MATLAB to solve the equation
+The code is shown in Appendix \ref{lst:d}. The result is
+
+\begin{itemize}
+    \item Weights of the portfolio: \\ \(
+          \begin{array}{rr}
+              \text{AHT.L:}  & 0.092301  \\
+              \text{CCH.L:}  & 0.944393  \\
+              \text{FRAS.L:} & -0.586839 \\
+              \text{MNG.L:}  & -0.194476 \\
+              \text{RMV.L:}  & 0.126301  \\
+              \text{RR.L:}   & 1.140152  \\
+              \text{SDR.L:}  & -0.442326 \\
+              \text{SHEL.L:} & 0.525337  \\
+              \text{STJ.L:}  & -0.046562 \\
+              \text{TSCO.L:} & -0.558282 \\
+          \end{array}
+          \)
+    \item Variance of the portfolio: 0.004000
+    \item Expected return of the portfolio: 0.026772
+\end{itemize}
+
+\clearpage
+\appendix
+\section*{Appendix}
+\addcontentsline{toc}{section}{Appendix}
+\renewcommand{\thesubsection}{\Alph{subsection}}
+
+\subsection{MATLAB Code}
+
+\begin{lstlisting}[label=lst:a,
+    caption=Question a)]
+    clear
+    filename = 'Historical Prices.xlsx';
+    opts = detectImportOptions(filename);
+    data = readtable(filename, opts);
+    
+    % calculate weekly returns
+    prices = table2array(data(:, 2:end));
+    returns = (prices(2:end, :) - prices(1:end-1, :)) ./ prices(1:end-1, :);
+    
+    % calculate expected returns and variances
+    expected_returns = mean(returns);
+    variances = var(returns);
+    
+    % calculate covariances
+    covariances = cov(returns);
+    
+    % set up the optimization problem
+    n_stocks = size(returns, 2);
+    H = 2 * covariances;
+    f = zeros(n_stocks, 1);
+    
+    Aeq = ones(1, n_stocks);
+    beq = 1;
+    
+    options = optimoptions('quadprog', 'Display', 'off');
+    [x, fval] = quadprog(H, f, [], [], Aeq, beq, [], [], [], options);
+    
+    optimal_weights = x;
+    variance_portfolio = fval;
+    expected_return_portfolio = expected_returns * optimal_weights;
+    
+    fprintf('Weights of the portfolio:\n');
+    for i = 1:n_stocks
+        fprintf('%s: %f\n', data.Properties.VariableNames{i+1}, optimal_weights(i));
+    end
+    fprintf('Variance of the portfolio: %f\n', variance_portfolio);
+    fprintf('Expected return of the portfolio: %f\n', expected_return_portfolio);
+\end{lstlisting}
+
+\begin{lstlisting}[label=lst:b,
+    caption=Question b)]
+    clear
+    filename = 'Historical Prices.xlsx';
+    opts = detectImportOptions(filename);
+    data = readtable(filename, opts);
+    
+    % calculate weekly returns
+    prices = table2array(data(:, 2:end));
+    returns = (prices(2:end, :) - prices(1:end-1, :)) ./ prices(1:end-1, :);
+    
+    % calculate expected returns and variances
+    expected_returns = mean(returns);
+    variances = var(returns);
+    
+    % calculate covariances
+    covariances = cov(returns);
+    
+    % set up the optimization problem
+    n_stocks = size(returns, 2);
+    H = 2 * covariances;
+    f = zeros(n_stocks, 1); % Since we are minimizing variance, there is no linear term
+    
+    target_return = 0.015;
+    Aeq = [ones(1, n_stocks); expected_returns];
+    beq = [1; target_return];
+    
+    options = optimoptions('quadprog', 'Display', 'off');
+    [x, fval] = quadprog(H, f, [], [], Aeq, beq, [], [], [], options);
+    
+    optimal_weights = x;
+    variance_portfolio = fval;
+    expected_return_portfolio = expected_returns * optimal_weights;
+    
+    
+    fprintf('Weights of the portfolio:\n');
+    for i = 1:n_stocks
+        fprintf('%s: %f\n', data.Properties.VariableNames{i+1}, optimal_weights(i));
+    end
+    fprintf('Variance of the portfolio: %f\n', variance_portfolio);
+    fprintf('Expected return of the portfolio: %f\n', expected_return_portfolio);
+\end{lstlisting}
+
+\begin{lstlisting}[label=lst:c,
+    caption=Question c)]
+    clear
+    filename = 'Historical Prices.xlsx';
+    opts = detectImportOptions(filename);
+    data = readtable(filename, opts);
+    
+    % calculate weekly returns
+    prices = table2array(data(:, 2:end));
+    returns = (prices(2:end, :) - prices(1:end-1, :)) ./ prices(1:end-1, :);
+    
+    % calculate expected returns and variances
+    expected_returns = mean(returns);
+    variances = var(returns);
+    
+    % calculate covariances
+    covariances = cov(returns);
+    
+    kappa = 0.5;
+    n_stocks = length(expected_returns);
+    H = 2*kappa * covariances;
+    f = -expected_returns;
+    
+    % linear equalities: sum(weights) = 1
+    Aeq = ones(1, n_stocks);
+    beq = 1;
+    
+    options = optimoptions('quadprog', 'Display', 'off');
+    [x, fval] = quadprog(H, f, [], [], Aeq, beq, [], [], [], options);
+    
+    optimal_weights = x;
+    utility = -fval;
+    expected_return_portfolio = expected_returns * optimal_weights;
+    
+    fprintf('Weights of the portfolio:\n');
+    for i = 1:n_stocks
+        fprintf('%s: %f\n', data.Properties.VariableNames{i+1}, optimal_weights(i));
+    end
+    fprintf('Maximum utility portfolio: %f\n', utility);
+    fprintf('Expected return of the portfolio: %f\n', expected_return_portfolio);
+\end{lstlisting}
+
+\begin{lstlisting}[label=lst:d,
+    caption=Question d)]
+    clear
+    filename = 'Historical Prices.xlsx';
+    opts = detectImportOptions(filename);
+    data = readtable(filename, opts);
+    
+    % calculate weekly returns
+    prices = table2array(data(:, 2:end));
+    returns = (prices(2:end, :) - prices(1:end-1, :)) ./ prices(1:end-1, :);
+    
+    % calculate expected returns and variances
+    expected_returns = mean(returns);
+    variances = var(returns);
+    
+    % calculate covariances
+    covariances = cov(returns);
+    n_stocks = length(expected_returns);
+    
+    syms x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 mu lamb
+    weights = [x1, x2, x3, x4, x5, x6, x7, x8, x9, x10];
+    
+    % Define the objective function
+    expected = expected_returns*weights';
+    
+    % Define the constraints
+    g1 = sum(weights) - 1 == 0; 
+    var = weights * covariances * weights'; 
+    g2 = var - 0.004 == 0; 
+    
+    W = expected - mu * lhs(g1) - lamb * lhs(g2);
+    
+    % Calculate the derivatives of the Lagrangian
+    dL_dx = arrayfun(@(i) diff(W, weights(i)) == 0, 1:length(weights));
+    dL_dmu = diff(W, mu) == 0;
+    dL_dlamb = diff(W, lamb) == 0;
+    
+    system = [dL_dx, dL_dmu, dL_dlamb];
+    solutions = vpasolve(system, [weights, mu, lamb]);
+    
+    optimal_weights = [solutions.x1, solutions.x2, solutions.x3, solutions.x4, solutions.x5, solutions.x6, solutions.x7, solutions.x8, solutions.x9, solutions.x10];
+    expected_return_portfolio = sum(optimal_weights .* expected_returns);
+    
+    variance_portfolio = optimal_weights * covariances * optimal_weights';
+    
+    
+    fprintf('Weights of the portfolio:\n');
+    for i = 1:n_stocks
+        fprintf('%s: %f\n', data.Properties.VariableNames{i+1}, optimal_weights(i));
+    end
+    fprintf('Variance of the portfolio: %f\n', variance_portfolio);
+    fprintf('Expected return of the portfolio: %f\n', expected_return_portfolio);
+\end{lstlisting}
+\end{document}
